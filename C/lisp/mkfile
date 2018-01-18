@@ -1,0 +1,17 @@
+CC=gcc
+PKGCONFIGLIBS=glib-2.0
+LIBS=-lgmp # gmp doesn't provide a pkgconfig
+CFLAGS= -g -Wall -pedantic -std=c99
+
+stas: ceceo.o object.o string.o cons.o num.o lit.o parsehelp.o
+	$CC -o ceceo $CFLAGS $prereq `pkg-config --libs $PKGCONFIGLIBS` $LIBS
+
+%.o: %.c
+	$CC $CFLAGS -c $stem.c `pkg-config --cflags $PKGCONFIGLIBS`
+
+clean:
+	rm *.o *~ *.tmp ceceo \#*\#
+
+forcebuild:
+	touch *.c
+	mk

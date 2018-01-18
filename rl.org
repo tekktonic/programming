@@ -1,0 +1,13 @@
+* classes
+** 3 broad types
+*** Dungeoneers
+Good at actually navigating dungeons
+*** Tinkerers
+Middle ground
+*** Summoners
+Can't survive without creatures. Creature limit?
+* items
+** traps
+** weapons
+** armor
+** status-changers

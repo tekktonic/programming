@@ -1,0 +1,6 @@
+* Info 
+This file is part of a series on literate programming with C and Emacs' org mode. The text of these files is provided under CC-BY 3.0 and the source code itself is under the ISC license.
+
+#+BEGIN_SRC c
+#include <stdio.h>
+#+END_SRC

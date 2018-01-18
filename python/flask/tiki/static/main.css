@@ -1,0 +1,9 @@
+html {min-height: 90%;}
+body {background-color: #333333; color:#222222; min-height: 100%;}
+div.content {background-color: #dddddd;margin: 0 auto;padding: 2%;width: 90%;border-radius: 5px;
+min-height: 100%;}
+
+div.edit {background-color: #dddddd;margin: 0 auto;padding: 2%;width: 90%;border-radius: 5px;
+min-height: 100%;}
+
+div.title {text-align: center;font-size: 150%}

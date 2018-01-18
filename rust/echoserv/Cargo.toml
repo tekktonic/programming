@@ -1,0 +1,6 @@
+[package]
+name = "echoserv"
+version = "0.1.0"
+authors = ["Daniel Wilkins <tekk@parlementum.net>"]
+
+[dependencies]

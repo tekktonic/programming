@@ -1,0 +1,5 @@
+"Rule: ocaml dependencies ml (%=dirwrap )": "\218\169`\2359\253\158\196'7\b\233O\229\203\136"
+"Rule: ocaml: ml & cmi -> cmx & o (%=dirwrap )": "o\230\b\228G%\147\138#\145\201\208,'\177\252"
+"Rule: ocaml: ml -> cmo & cmi (%=dirwrap )": "\1319`'\001\159\011\154\003\0039\176\020kJ\189"
+"Rule: ocaml: cmx* & o* -> native (%=dirwrap )": "7\250\160\250@\003\215Y\195\150|\211\171 EU"
+"Resource: /home/danny/programming/ocaml/dirwrap.ml": "c\152\157\200A\202\162\"\163=A4\154\152\021L"

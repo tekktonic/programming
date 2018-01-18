@@ -1,0 +1,20 @@
+program ::= <imports>
+        <program> | <program>
+
+imports ::= open <identifier> |  open <identifier> ; <imports>
+
+program ::= <function> | <decl> | <function> <program> | <decl> <program>;
+
+function ::= fun <identifier> ( <args> ) -> <type> { <statements> }
+
+statements ::= <statement>; | <statement>; <statements>
+
+statement ::= <function> | <decl> | <call> | <return>
+
+decl ::= <identifier>: <type> | <identifier>: <type> = <value> | <identifiers>: <type>
+
+call ::= <identifier> ( <args> )
+
+return ::= ret <value>
+
+value ::= <string> | <number> | <call>

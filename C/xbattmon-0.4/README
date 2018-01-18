@@ -1,0 +1,5 @@
+You need libbsd to build xbattmon on Linux.
+
+# ./configure
+# make
+# make install

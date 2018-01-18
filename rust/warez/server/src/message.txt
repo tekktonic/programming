@@ -1,0 +1,21 @@
+destination: "channel|person"
+    | "["destination(, destination)*"]"
+timestamp: a unix timestamp
+
+client sends:
+
+{
+    "token": uuid?
+    "destination": destination,
+    "time": timestamp,
+    "message": some_json
+}
+
+client sees:
+
+source: "{" "channel: " string ", person: " name_from_token "}"
+{
+    "from": name_from_token|source,
+    "time": same_timestamp,
+    "message": some_json
+}

@@ -1,0 +1,21 @@
+version = "0.8.1-3-gbc18d14"
+description = "Thin bindings to SDL for OCaml"
+requires = "ctypes ctypes.foreign"
+archive(byte) = "tsdl.cma"
+archive(byte, plugin) = "tsdl.cma"
+archive(native) = "tsdl.cmxa"
+archive(native, plugin) = "tsdl.cmxs"
+archive(byte, toploop) += "tsdl_top.cma"
+archive(native, toploop) += "tsdl_top.cmxs"
+exists_if = "tsdl.cma"
+
+package "top" (
+ version = "0.8.1-3-gbc18d14"
+ description = "Toplevel module for Tsdl"
+ requires = "compiler-libs.toplevel"
+ archive(byte) = "tsdl_top.cma"
+ archive(byte, plugin) = "tsdl_top.cma"
+ archive(native) = "tsdl_top.cmxa"
+ archive(native, plugin) = "tsdl_top.cmxs"
+ exists_if = "tsdl_top.cma"
+)

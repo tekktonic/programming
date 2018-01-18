@@ -1,0 +1,26 @@
+* Resources
+** Film Theory: Cult of Christian grey
+** 6 bullshit facts about psychology (#4 in list)
+* Person
+** wealth
+** income
+** skills
+** preferences (axes)
+** name
+** devotion
+** age
+** influence
+** member* (union of fed or cultist)
+* Member
+** Tithe
+** Role(s)
+** Compounded
+* Cult
+** Influence
+** Food production
+** Cash
+** Compound*
+* Compound
+** Food production
+** Population
+** Size

@@ -1,0 +1,2 @@
+(main (bind (foo 5.0 bar 9.0 baz " ( ´ ▽ ` )b")
+       (c.printf "%f %f %s\n" foo bar baz)))

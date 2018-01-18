@@ -1,0 +1,8 @@
+(import sdl2
+ window: SDL_Window-ptr
+         event: SDL_Event)
+
+(SDL_Init SDL_INIT_EVERYTHING)
+(set window SDL_CreateWindow "Something" SDL_WINDOWPOS_UNDEFINED SDL_WINDOWPOS_UNDEFINED 640 480 0)
+
+(while (! (= ())))

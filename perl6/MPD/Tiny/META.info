@@ -1,0 +1,7 @@
+{
+	"name" : "MPD",
+	"version" : "*",
+	"description" : "A simple pure perl implementation of an MPD client library.",
+	"depends" : "[]",
+	"source-url" : "git://github.com/tekkenfreak3/mpd.git"
+}

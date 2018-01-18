@@ -1,0 +1,7 @@
+* Basic design
+Platformer where the player has to keep moving upwards along falling platforms,
+never touching the bottom of the screen.
+
+Platforms fall more quickly as time goes on, making the player has less time to get
+to the next one. The gap to jump through may also get more narrow.
+

@@ -1,0 +1,6 @@
+all: default hello
+
+default:
+	gcc -Wall -Wextra -pedantic default.c -o default
+hello:
+	gcc -Wall -Wextra -pedantic hello.c -o hello

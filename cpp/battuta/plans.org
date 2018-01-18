@@ -1,0 +1,12 @@
+* Basics
+** One player, shared between all rooms (static field)
+** Interactables
+just call to lua code, which is embedded in their json. Lua code
+should have  "this" and a table of other interactables
+defined in its context. Lua code has access to basic
+functionality inside. moveto, take, use.
+** Serialization
+Everything can serialize to json or a json value, period. Entire
+game state can be dumped at any time for saves. This allows more
+permanence at the cost of bigger save files, but disk is cheap and
+json compresses well.

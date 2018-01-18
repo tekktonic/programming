@@ -1,0 +1,21 @@
+program -> <expression>+
+
+expression -> \(<name> <binding>\)
+           | <name>
+
+binding -> \(bind \({<name> <value>}\) in <expression>\)
+
+value -> <name>
+      | <fn>
+      | <number>
+      | <string>
+      | <vect>
+
+vect -> \[<value>{, <value>}\]
+
+name -> [a-zA-Z0-9\-_]+
+
+number -> [0-9]+{.[0-9]*}
+
+string -> "<unicode_char>*"
+

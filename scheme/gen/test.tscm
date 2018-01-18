@@ -1,0 +1,3 @@
+Hello, scratch
+
+(define-page "Hello, scratch!" "So this is my first blog post. It should be posted at " (<a> href:"http://tekk.com.ar" "this place") ". Since this is fully evaluated at compile time with scheme, I can do stuff like (number->string (+ 4 2)): " (number->string (+ 4 2)))

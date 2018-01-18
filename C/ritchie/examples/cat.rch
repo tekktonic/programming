@@ -1,0 +1,10 @@
+(file: FILE-ptr
+    buffer: uint32_t)
+
+(for (arg argv)
+    (set file (fopen arg "r"))
+    (set buffer (getc file))
+
+    (while (not (feof buffer))
+           (write buffer)
+           (set buffer (getc file))))

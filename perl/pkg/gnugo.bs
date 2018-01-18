@@ -1,0 +1,55 @@
+use Build::Autotools;
+use Archive::Tar;
+use Data::Dumper;
+use File::Path;
+use File::Slurp qw(slurp write_file);
+use File::Find::Rule;
+use JSON;
+use Cwd;
+use autodie;
+
+my $pkginfo = slurp(\*DATA);
+my %info = %{decode_json($pkginfo)};
+
+
+my $version = $info{"version"};
+my $prg = $info{"name"};
+my $location = getcwd;
+my $archive = Archive::Tar->new("$location/$prg-$version.tar.gz");
+
+unless (-d "/tmp/equator") {
+	mkdir("/tmp/equator");
+}
+
+if ( -d "/tmp/equator/$prg-$version") {
+	rmtree("/tmp/equator/$prg-$version");
+}
+if ( -d "/tmp/equator/$prg-$version-work") {
+	rmtree("/tmp/equator/$prg-$version-work");
+}
+
+mkdir("/tmp/equator/$prg-$version");
+mkdir("/tmp/equator/$prg-$version-work");
+
+chdir("/tmp/equator/$prg-$version-work");
+
+$archive->extract();
+
+build(dir => "$prg-$version", dest => "/tmp/equator/$prg-$version", flags => ["--prefix=/usr"]);
+
+chdir("/tmp/equator/$prg-$version");
+
+my @files = (File::Find::Rule->file->in('.'));
+
+$info{"files"} = \@files;
+print encode_json(\%info);
+mkdir("info");
+write_file("info/pkg.json", encode_json(\%info));
+
+Archive::Tar->create_archive("../$prg-$version.pgz", COMPRESS_GZIP, File::Find::Rule->file->in('.'); # fresh pull of the files to make sure that the info is included
+__DATA__
+{
+"name": "gnugo",
+"version": 3.8,
+"flavor": "none"
+}	

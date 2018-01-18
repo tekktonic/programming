@@ -1,0 +1,7 @@
+(fib: (func number:uint32_t uint32_t))
+
+(set fib
+     (if (or (= number 0)
+             (= number 1))
+         1
+         (+ (fib (- number 1)) (fib (- number 2))))

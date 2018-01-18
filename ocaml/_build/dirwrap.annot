@@ -1,0 +1,622 @@
+"dirwrap.ml" 3 13 17 "dirwrap.ml" 3 13 24
+type(
+  string -> string list
+)
+ident(
+  def dirwrap "dirwrap.ml" 20 347 351 "dirwrap.ml" 33 762 808
+)
+"dirwrap.ml" 3 13 25 "dirwrap.ml" 3 13 28
+type(
+  string
+)
+ident(
+  def dir "dirwrap.ml" 4 37 41 "dirwrap.ml" 17 325 336
+)
+"dirwrap.ml" 4 37 45 "dirwrap.ml" 4 37 52
+type(
+  dir_handle -> string option
+)
+ident(
+  def fix_dir "dirwrap.ml" 11 135 139 "dirwrap.ml" 17 325 336
+)
+"dirwrap.ml" 4 37 53 "dirwrap.ml" 4 37 57
+type(
+  dir_handle
+)
+ident(
+  def dirh "dirwrap.ml" 6 65 71 "dirwrap.ml" 9 107 127
+)
+"dirwrap.ml" 7 75 82 "dirwrap.ml" 7 75 89
+type(
+  dir_handle -> string
+)
+ident(
+  ext_ref Unix.readdir
+)
+"dirwrap.ml" 7 75 90 "dirwrap.ml" 7 75 94
+type(
+  dir_handle
+)
+ident(
+  int_ref dirh "dirwrap.ml" 4 37 53 "dirwrap.ml" 4 37 57
+)
+"dirwrap.ml" 7 75 82 "dirwrap.ml" 7 75 94
+call(
+  stack
+)
+type(
+  string
+)
+"dirwrap.ml" 7 75 76 "dirwrap.ml" 7 75 95
+type(
+  string option
+)
+"dirwrap.ml" 9 107 108 "dirwrap.ml" 9 107 119
+type(
+  exn
+)
+"dirwrap.ml" 9 107 123 "dirwrap.ml" 9 107 127
+type(
+  string option
+)
+"dirwrap.ml" 6 65 71 "dirwrap.ml" 9 107 127
+type(
+  string option
+)
+"dirwrap.ml" 4 37 53 "dirwrap.ml" 9 107 127
+type(
+  dir_handle -> string option
+)
+"dirwrap.ml" 11 135 143 "dirwrap.ml" 11 135 147
+type(
+  dir_handle
+)
+ident(
+  def dirh "dirwrap.ml" 12 165 169 "dirwrap.ml" 17 325 336
+)
+"dirwrap.ml" 11 135 150 "dirwrap.ml" 11 135 157
+type(
+  string -> dir_handle
+)
+ident(
+  ext_ref Unix.opendir
+)
+"dirwrap.ml" 11 135 158 "dirwrap.ml" 11 135 161
+type(
+  string
+)
+ident(
+  int_ref dir "dirwrap.ml" 3 13 25 "dirwrap.ml" 3 13 28
+)
+"dirwrap.ml" 11 135 150 "dirwrap.ml" 11 135 161
+call(
+  stack
+)
+type(
+  dir_handle
+)
+"dirwrap.ml" 12 165 177 "dirwrap.ml" 12 165 181
+type(
+  unit -> string list
+)
+ident(
+  def loop "dirwrap.ml" 12 165 169 "dirwrap.ml" 17 325 336
+)
+"dirwrap.ml" 12 165 182 "dirwrap.ml" 12 165 184
+type(
+  unit
+)
+"dirwrap.ml" 13 187 199 "dirwrap.ml" 13 187 206
+type(
+  dir_handle -> string option
+)
+ident(
+  int_ref fix_dir "dirwrap.ml" 4 37 45 "dirwrap.ml" 4 37 52
+)
+"dirwrap.ml" 13 187 207 "dirwrap.ml" 13 187 211
+type(
+  dir_handle
+)
+ident(
+  int_ref dirh "dirwrap.ml" 11 135 143 "dirwrap.ml" 11 135 147
+)
+"dirwrap.ml" 13 187 199 "dirwrap.ml" 13 187 211
+call(
+  stack
+)
+type(
+  string option
+)
+"dirwrap.ml" 14 217 230 "dirwrap.ml" 14 217 233
+type(
+  string
+)
+ident(
+  def dir "dirwrap.ml" 14 217 237 "dirwrap.ml" 14 217 298
+)
+"dirwrap.ml" 14 217 225 "dirwrap.ml" 14 217 233
+type(
+  string option
+)
+"dirwrap.ml" 14 217 237 "dirwrap.ml" 14 217 248
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref List.append
+)
+"dirwrap.ml" 14 217 250 "dirwrap.ml" 14 217 281
+type(
+  string
+)
+"dirwrap.ml" 14 217 282 "dirwrap.ml" 14 217 283
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"dirwrap.ml" 14 217 284 "dirwrap.ml" 14 217 287
+type(
+  string
+)
+ident(
+  int_ref dir "dirwrap.ml" 14 217 230 "dirwrap.ml" 14 217 233
+)
+"dirwrap.ml" 14 217 250 "dirwrap.ml" 14 217 287
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string list
+)
+"dirwrap.ml" 14 217 249 "dirwrap.ml" 14 217 288
+type(
+  string list
+)
+"dirwrap.ml" 14 217 290 "dirwrap.ml" 14 217 294
+type(
+  unit -> string list
+)
+ident(
+  int_ref loop "dirwrap.ml" 12 165 177 "dirwrap.ml" 12 165 181
+)
+"dirwrap.ml" 14 217 295 "dirwrap.ml" 14 217 297
+type(
+  unit
+)
+"dirwrap.ml" 14 217 290 "dirwrap.ml" 14 217 297
+call(
+  stack
+)
+type(
+  string list
+)
+"dirwrap.ml" 14 217 237 "dirwrap.ml" 14 217 298
+call(
+  tail
+)
+type(
+  string list
+)
+"dirwrap.ml" 15 299 307 "dirwrap.ml" 15 299 311
+type(
+  string option
+)
+"dirwrap.ml" 15 299 315 "dirwrap.ml" 15 299 317
+type(
+  string list
+)
+"dirwrap.ml" 13 187 193 "dirwrap.ml" 15 299 317
+type(
+  string list
+)
+"dirwrap.ml" 12 165 182 "dirwrap.ml" 15 299 317
+type(
+  unit -> string list
+)
+"dirwrap.ml" 17 325 329 "dirwrap.ml" 17 325 333
+type(
+  unit -> string list
+)
+ident(
+  int_ref loop "dirwrap.ml" 12 165 177 "dirwrap.ml" 12 165 181
+)
+"dirwrap.ml" 17 325 334 "dirwrap.ml" 17 325 336
+type(
+  unit
+)
+"dirwrap.ml" 17 325 329 "dirwrap.ml" 17 325 336
+call(
+  tail
+)
+type(
+  string list
+)
+"dirwrap.ml" 12 165 169 "dirwrap.ml" 17 325 336
+type(
+  string list
+)
+"dirwrap.ml" 11 135 139 "dirwrap.ml" 17 325 336
+type(
+  string list
+)
+"dirwrap.ml" 4 37 41 "dirwrap.ml" 17 325 336
+type(
+  string list
+)
+"dirwrap.ml" 3 13 25 "dirwrap.ml" 18 337 342
+type(
+  string -> string list
+)
+"dirwrap.ml" 20 347 359 "dirwrap.ml" 20 347 370
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def intersperse "dirwrap.ml" 20 347 351 "dirwrap.ml" 33 762 808
+)
+"dirwrap.ml" 20 347 371 "dirwrap.ml" 20 347 375
+type(
+  'a
+)
+ident(
+  def item "dirwrap.ml" 20 347 376 "dirwrap.ml" 23 462 485
+)
+"dirwrap.ml" 20 347 376 "dirwrap.ml" 20 347 378
+type(
+  'a list
+)
+ident(
+  def ls "dirwrap.ml" 20 347 381 "dirwrap.ml" 23 462 485
+)
+"dirwrap.ml" 21 385 386 "dirwrap.ml" 21 385 397
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.append
+)
+"dirwrap.ml" 21 385 399 "dirwrap.ml" 21 385 403
+type(
+  'a
+)
+ident(
+  int_ref item "dirwrap.ml" 20 347 371 "dirwrap.ml" 20 347 375
+)
+"dirwrap.ml" 21 385 406 "dirwrap.ml" 21 385 413
+type(
+  'a list -> 'a
+)
+ident(
+  ext_ref List.hd
+)
+"dirwrap.ml" 21 385 414 "dirwrap.ml" 21 385 416
+type(
+  'a list
+)
+ident(
+  int_ref ls "dirwrap.ml" 20 347 376 "dirwrap.ml" 20 347 378
+)
+"dirwrap.ml" 21 385 406 "dirwrap.ml" 21 385 416
+call(
+  stack
+)
+type(
+  'a
+)
+"dirwrap.ml" 21 385 405 "dirwrap.ml" 21 385 417
+type(
+  'a list
+)
+"dirwrap.ml" 21 385 399 "dirwrap.ml" 21 385 417
+type(
+  'a list
+)
+"dirwrap.ml" 21 385 398 "dirwrap.ml" 21 385 418
+type(
+  'a list
+)
+"dirwrap.ml" 21 385 420 "dirwrap.ml" 21 385 431
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref intersperse "dirwrap.ml" 20 347 359 "dirwrap.ml" 20 347 370
+)
+"dirwrap.ml" 21 385 432 "dirwrap.ml" 21 385 436
+type(
+  'a
+)
+ident(
+  int_ref item "dirwrap.ml" 20 347 371 "dirwrap.ml" 20 347 375
+)
+"dirwrap.ml" 21 385 438 "dirwrap.ml" 21 385 445
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.tl
+)
+"dirwrap.ml" 21 385 446 "dirwrap.ml" 21 385 448
+type(
+  'a list
+)
+ident(
+  int_ref ls "dirwrap.ml" 20 347 376 "dirwrap.ml" 20 347 378
+)
+"dirwrap.ml" 21 385 438 "dirwrap.ml" 21 385 448
+call(
+  stack
+)
+type(
+  'a list
+)
+"dirwrap.ml" 21 385 420 "dirwrap.ml" 21 385 449
+call(
+  stack
+)
+type(
+  'a list
+)
+"dirwrap.ml" 21 385 386 "dirwrap.ml" 21 385 450
+call(
+  stack
+)
+type(
+  'a list
+)
+"dirwrap.ml" 23 462 478 "dirwrap.ml" 23 462 479
+type(
+  string
+)
+"dirwrap.ml" 23 462 470 "dirwrap.ml" 23 462 479
+type(
+  exn
+)
+"dirwrap.ml" 23 462 483 "dirwrap.ml" 23 462 485
+type(
+  'a list
+)
+"dirwrap.ml" 20 347 381 "dirwrap.ml" 23 462 485
+type(
+  'a list
+)
+"dirwrap.ml" 20 347 376 "dirwrap.ml" 23 462 485
+type(
+  'a list -> 'a list
+)
+"dirwrap.ml" 20 347 371 "dirwrap.ml" 23 462 485
+type(
+  'a -> 'a list -> 'a list
+)
+"dirwrap.ml" 25 494 502 "dirwrap.ml" 25 494 514
+type(
+  string -> bool
+)
+ident(
+  def is_directory "dirwrap.ml" 31 637 641 "dirwrap.ml" 33 762 808
+)
+"dirwrap.ml" 25 494 515 "dirwrap.ml" 25 494 519
+type(
+  string
+)
+ident(
+  def file "dirwrap.ml" 25 494 522 "dirwrap.ml" 28 581 623
+)
+"dirwrap.ml" 25 494 528 "dirwrap.ml" 25 494 532
+type(
+  string
+)
+ident(
+  int_ref file "dirwrap.ml" 25 494 515 "dirwrap.ml" 25 494 519
+)
+"dirwrap.ml" 26 538 546 "dirwrap.ml" 26 538 549
+type(
+  string
+)
+"dirwrap.ml" 26 538 553 "dirwrap.ml" 26 538 558
+type(
+  bool
+)
+"dirwrap.ml" 27 559 567 "dirwrap.ml" 27 559 571
+type(
+  string
+)
+"dirwrap.ml" 27 559 575 "dirwrap.ml" 27 559 580
+type(
+  bool
+)
+"dirwrap.ml" 28 581 589 "dirwrap.ml" 28 581 590
+type(
+  string
+)
+"dirwrap.ml" 28 581 595 "dirwrap.ml" 28 581 600
+type(
+  string -> stats
+)
+ident(
+  ext_ref Unix.lstat
+)
+"dirwrap.ml" 28 581 602 "dirwrap.ml" 28 581 606
+type(
+  string
+)
+ident(
+  int_ref file "dirwrap.ml" 25 494 515 "dirwrap.ml" 25 494 519
+)
+"dirwrap.ml" 28 581 595 "dirwrap.ml" 28 581 606
+call(
+  stack
+)
+type(
+  stats
+)
+"dirwrap.ml" 28 581 594 "dirwrap.ml" 28 581 615
+type(
+  file_kind
+)
+"dirwrap.ml" 28 581 616 "dirwrap.ml" 28 581 617
+type(
+  file_kind -> file_kind -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"dirwrap.ml" 28 581 618 "dirwrap.ml" 28 581 623
+type(
+  file_kind
+)
+"dirwrap.ml" 28 581 594 "dirwrap.ml" 28 581 623
+type(
+  bool
+)
+"dirwrap.ml" 25 494 522 "dirwrap.ml" 28 581 623
+type(
+  bool
+)
+"dirwrap.ml" 25 494 515 "dirwrap.ml" 28 581 623
+type(
+  string -> bool
+)
+"dirwrap.ml" 31 637 645 "dirwrap.ml" 31 637 649
+type(
+  string list
+)
+ident(
+  def args "dirwrap.ml" 33 762 766 "dirwrap.ml" 33 762 808
+)
+"dirwrap.ml" 31 637 652 "dirwrap.ml" 31 637 666
+type(
+  string
+)
+"dirwrap.ml" 31 637 671 "dirwrap.ml" 31 637 682
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"dirwrap.ml" 31 637 683 "dirwrap.ml" 31 637 695
+type(
+  string -> bool
+)
+ident(
+  int_ref is_directory "dirwrap.ml" 25 494 502 "dirwrap.ml" 25 494 514
+)
+"dirwrap.ml" 31 637 697 "dirwrap.ml" 31 637 704
+type(
+  string -> string list
+)
+ident(
+  int_ref dirwrap "dirwrap.ml" 3 13 17 "dirwrap.ml" 3 13 24
+)
+"dirwrap.ml" 31 637 705 "dirwrap.ml" 31 637 735
+type(
+  string
+)
+"dirwrap.ml" 31 637 697 "dirwrap.ml" 31 637 735
+call(
+  stack
+)
+type(
+  string list
+)
+"dirwrap.ml" 31 637 671 "dirwrap.ml" 31 637 736
+call(
+  stack
+)
+type(
+  string list
+)
+"dirwrap.ml" 31 637 737 "dirwrap.ml" 31 637 739
+type(
+  string list -> (string list -> string list) -> string list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"dirwrap.ml" 31 637 740 "dirwrap.ml" 31 637 751
+type(
+  string -> string list -> string list
+)
+ident(
+  int_ref intersperse "dirwrap.ml" 20 347 359 "dirwrap.ml" 20 347 370
+)
+"dirwrap.ml" 31 637 752 "dirwrap.ml" 31 637 756
+type(
+  string
+)
+"dirwrap.ml" 31 637 740 "dirwrap.ml" 31 637 756
+type(
+  string list -> string list
+)
+"dirwrap.ml" 31 637 671 "dirwrap.ml" 31 637 756
+call(
+  stack
+)
+type(
+  string list
+)
+"dirwrap.ml" 31 637 652 "dirwrap.ml" 31 637 757
+type(
+  string list
+)
+"dirwrap.ml" 33 762 766 "dirwrap.ml" 33 762 772
+type(
+  string -> string array -> 'b
+)
+ident(
+  ext_ref Unix.execvp
+)
+"dirwrap.ml" 33 762 773 "dirwrap.ml" 33 762 787
+type(
+  string
+)
+"dirwrap.ml" 33 762 789 "dirwrap.ml" 33 762 802
+type(
+  string list -> string array
+)
+ident(
+  ext_ref Array.of_list
+)
+"dirwrap.ml" 33 762 803 "dirwrap.ml" 33 762 807
+type(
+  string list
+)
+ident(
+  int_ref args "dirwrap.ml" 31 637 645 "dirwrap.ml" 31 637 649
+)
+"dirwrap.ml" 33 762 789 "dirwrap.ml" 33 762 807
+call(
+  stack
+)
+type(
+  string array
+)
+"dirwrap.ml" 33 762 766 "dirwrap.ml" 33 762 808
+call(
+  stack
+)
+type(
+  'b
+)
+"dirwrap.ml" 31 637 641 "dirwrap.ml" 33 762 808
+type(
+  'b
+)
+"dirwrap.ml" 25 494 498 "dirwrap.ml" 33 762 808
+type(
+  'b
+)
+"dirwrap.ml" 20 347 351 "dirwrap.ml" 33 762 808
+type(
+  'b
+)
+"dirwrap.ml" 3 13 13 "dirwrap.ml" 33 762 808
+type(
+  'b
+)

@@ -1,0 +1,31 @@
+pump.io version 0.01
+====================
+
+This is a module that provides a simple object oriented interface to the
+pump.io social networking software.
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+LWP
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2013 by Daniel Wilkins
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.16.3 or,
+at your option, any later version of Perl 5 you may have available.
+
+

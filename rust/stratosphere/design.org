@@ -1,0 +1,75 @@
+Tactics game to start with
+Top-down. No map rotation needed.
+Turn based.
+Several squads.
+Arbitrary win conditions. Just a boolean function set on each squad. Examples are destroy all enemies (map.units.filter(team != this.team) == empty) Hold capture points, etc.
+Grid based (each grid = 1 inch if tabletop)
+
+Mechs?
+
+Each mech has 6 parts.
+Head
+Arms (L,R)
+Body
+Legs (L,R)
+
+Head contains sensors, disabled head makes hitting harder (+2 difficulty)
+Body is overall health, a disabled body is a disabled mech
+Arms contain weapons, disabled arm disables those weapons
+Legs are movement. One destroyed leg is halved (rounded down) movement, two is reduced to 1 square movement.
+
+static initiative by 2d6 roll
+
+Attacks:
+direct base range = 5
+
+normal:
+baseline difficulty 5
+Each step up adds the floor of the "distance factor" of the weapon.
+
+Normal MG:
+1 hit is 1 damage
+Continue rolling, as long as you hit you keep going until 5 hits.
+
+Machine gun is distance factor 1/5
+So 5 to hit 1-5
+6 6-11
+
+Shotgun:
+Range factor: 1/3
+Do 1 damage to the damaged part and all adjacent parts.
+Body: adjacent to everything
+Head: adjacent to body
+Arm: adjacent to body
+Leg: adjacent to body and other leg
+
+indirect fire:
+Min range 10
+baseline difficulty 7
+Limited by minimum range
+low distance factors.
+
+Missile:
+range factor: 1/10
+5 damage to 1 part
+Requires a reload after firing. Up to 3 reloads
+
+Punch:
+2 damage to the part hit
+Very likely to hit, base difficulty 3
+
+
+Action Points:
+Every mech has a set number of action points. The following actions can be taken with them:
+Move
+Fire a weapon
+Reload
+Aim (-2 to any DCs to hit this turn)
+
+Points:
+Every armor = 5 points
+Weapon base = 5 * damage
+
+Weapon points = base +/- 1/range_factor
+
+5 points/square of movement

@@ -1,0 +1,31 @@
+* Disclaimer
+This is NOT a reliable or safe server. This isn't even really a server, pretend it isn't, don't run it for anything 
+serious. This IS a playground, a testing area to play with the protocol and see what can be done with it and what needs to
+be added. In particular, this implementation of the server and tools(which will all be thrown out when rust has a
+networking module,) have some of the following fatal flaws:
+
+** No exceptions
+request a file that doesn't exist? server crashes. client quits in the middle of the transfer? server crashes, try to list
+a non-directory? server should crash(haven't tested yet, but I'm pretty sure.)
+
+** No protections 
+any file that you have read access to, anyone who connects to the server can grab or cat, this is obviously a MASSIVE
+issue, though you should be safe as long as you only run the server on localhost, which it does.
+
+* Tools
+Okay, now that the disclaimer's out of the way, let's get down to the fun bits. There are currently 3 tools that deal with
+the protocol directly, and they do exactly what their names imply. get will download a file, cat will cat a file, list will
+ls a directory. In addition there's tekkbrowse.sh, which was a bit of an example I threw together to show off how easily a
+'browser' could be make, it tekkgets the file and then runs emacs on it(I plan for the default page format to be an 
+extended org.) All of the programs are extremely simple to read and understand, I hope, though they are not well 
+commented(each one is only ~ a page of code though, excluding the server.)
+
+** Usages
+tekkget server-name file-location (optional: outfile)
+
+tekkcat server-name file-location
+
+tekklist server-name directory-location
+
+requires emacs:
+tekkbrowse server-name file-location

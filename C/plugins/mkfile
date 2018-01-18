@@ -1,0 +1,5 @@
+host: host.c
+	gcc host.c -o host -ldl
+
+plugin.so: plugin.c
+	gcc plugin.c -o plugin.so -shared

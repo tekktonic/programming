@@ -1,0 +1,5 @@
+* why use the framework?
+** plays nice with others
+It just uses fcgi: no need to proxy with another server, no need to use up a port, less of an attack surface. If you want to, though, you can use
+a server and proxy it.
+** 

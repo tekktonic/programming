@@ -1,0 +1,1179 @@
+"game.ml" 6 89 93 "game.ml" 6 89 95
+type(
+  unit
+)
+"game.ml" 7 98 100 "game.ml" 7 98 115
+type(
+  (unit, string) Result.t -> unit
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 7 98 117 "game.ml" 7 98 126
+type(
+  int -> (unit, string) Result.t
+)
+ident(
+  ext_ref Sdl2.Init.init
+)
+"game.ml" 7 98 127 "game.ml" 7 98 147
+type(
+  int
+)
+ident(
+  ext_ref Sdl2.Init.init_everything
+)
+"game.ml" 7 98 117 "game.ml" 7 98 147
+call(
+  stack
+)
+type(
+  (unit, string) Result.t
+)
+"game.ml" 7 98 100 "game.ml" 7 98 148
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 8 150 156 "game.ml" 8 150 162
+type(
+  Window.t
+)
+ident(
+  def window "game.ml" 9 264 266 "game.ml" 43 2009 2092
+)
+"game.ml" 8 150 165 "game.ml" 8 150 180
+type(
+  (Window.t, string) Result.t -> Window.t
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 8 150 181 "game.ml" 8 150 192
+type(
+  string -> int -> int -> int -> int -> int -> (Window.t, string) Result.t
+)
+ident(
+  ext_ref Sdl2.Window.make
+)
+"game.ml" 8 150 193 "game.ml" 8 150 207
+type(
+  string
+)
+"game.ml" 8 150 208 "game.ml" 8 150 228
+type(
+  int
+)
+ident(
+  ext_ref Sdl2.Window.pos_undefined
+)
+"game.ml" 8 150 229 "game.ml" 8 150 249
+type(
+  int
+)
+ident(
+  ext_ref Sdl2.Window.pos_undefined
+)
+"game.ml" 8 150 250 "game.ml" 8 150 253
+type(
+  int
+)
+"game.ml" 8 150 254 "game.ml" 8 150 257
+type(
+  int
+)
+"game.ml" 8 150 258 "game.ml" 8 150 259
+type(
+  int
+)
+"game.ml" 8 150 181 "game.ml" 8 150 259
+call(
+  stack
+)
+type(
+  (Window.t, string) Result.t
+)
+"game.ml" 8 150 165 "game.ml" 8 150 260
+call(
+  stack
+)
+type(
+  Window.t
+)
+"game.ml" 9 264 270 "game.ml" 9 264 278
+type(
+  Render.t
+)
+ident(
+  def renderer "game.ml" 10 323 325 "game.ml" 43 2009 2092
+)
+"game.ml" 9 264 281 "game.ml" 9 264 296
+type(
+  (Render.t, string) Result.t -> Render.t
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 9 264 298 "game.ml" 9 264 309
+type(
+  Window.t -> int -> (Render.t, string) Result.t
+)
+ident(
+  ext_ref Sdl2.Render.make
+)
+"game.ml" 9 264 310 "game.ml" 9 264 316
+type(
+  Window.t
+)
+ident(
+  int_ref window "game.ml" 8 150 156 "game.ml" 8 150 162
+)
+"game.ml" 9 264 317 "game.ml" 9 264 318
+type(
+  int
+)
+"game.ml" 9 264 298 "game.ml" 9 264 318
+call(
+  stack
+)
+type(
+  (Render.t, string) Result.t
+)
+"game.ml" 9 264 281 "game.ml" 9 264 319
+call(
+  stack
+)
+type(
+  Render.t
+)
+"game.ml" 10 323 329 "game.ml" 10 323 339
+type(
+  Texture.t
+)
+ident(
+  def background "game.ml" 12 393 395 "game.ml" 43 2009 2092
+)
+"game.ml" 10 323 342 "game.ml" 10 323 357
+type(
+  (Texture.t, string) Result.t -> Texture.t
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 10 323 359 "game.ml" 10 323 369
+type(
+  Render.t -> string -> (Texture.t, string) Result.t
+)
+ident(
+  ext_ref Sdl2.Image.load
+)
+"game.ml" 10 323 370 "game.ml" 10 323 378
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 10 323 379 "game.ml" 10 323 387
+type(
+  string
+)
+"game.ml" 10 323 359 "game.ml" 10 323 387
+call(
+  stack
+)
+type(
+  (Texture.t, string) Result.t
+)
+"game.ml" 10 323 342 "game.ml" 10 323 388
+call(
+  stack
+)
+type(
+  Texture.t
+)
+"game.ml" 14 435 441 "game.ml" 14 435 453
+type(
+  unit -> Color.color
+)
+ident(
+  def random_color "game.ml" 16 568 570 "game.ml" 43 2009 2092
+)
+"game.ml" 14 435 454 "game.ml" 14 435 456
+type(
+  unit
+)
+"game.ml" 15 459 473 "game.ml" 15 459 483
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"game.ml" 15 459 484 "game.ml" 15 459 487
+type(
+  int
+)
+"game.ml" 15 459 473 "game.ml" 15 459 487
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 15 459 498 "game.ml" 15 459 508
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"game.ml" 15 459 509 "game.ml" 15 459 512
+type(
+  int
+)
+"game.ml" 15 459 498 "game.ml" 15 459 512
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 15 459 523 "game.ml" 15 459 533
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"game.ml" 15 459 534 "game.ml" 15 459 537
+type(
+  int
+)
+"game.ml" 15 459 523 "game.ml" 15 459 537
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 15 459 548 "game.ml" 15 459 558
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"game.ml" 15 459 559 "game.ml" 15 459 562
+type(
+  int
+)
+"game.ml" 15 459 548 "game.ml" 15 459 562
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 15 459 463 "game.ml" 15 459 564
+type(
+  Color.color
+)
+"game.ml" 14 435 454 "game.ml" 15 459 564
+type(
+  unit -> Color.color
+)
+"game.ml" 16 568 574 "game.ml" 16 568 579
+type(
+  string array
+)
+ident(
+  def texts "game.ml" 18 833 835 "game.ml" 43 2009 2092
+)
+"game.ml" 16 568 582 "game.ml" 16 568 595
+type(
+  string list -> string array
+)
+ident(
+  ext_ref Core.Std.Array.of_list
+)
+"game.ml" 16 568 597 "game.ml" 16 568 624
+type(
+  string
+)
+"game.ml" 16 568 626 "game.ml" 16 568 632
+type(
+  string
+)
+"game.ml" 16 568 634 "game.ml" 16 568 701
+type(
+  string
+)
+"game.ml" 16 568 703 "game.ml" 16 568 827
+type(
+  string
+)
+type(
+  string list
+)
+"game.ml" 16 568 634 "game.ml" 16 568 827
+type(
+  string list
+)
+"game.ml" 16 568 626 "game.ml" 16 568 827
+type(
+  string list
+)
+"game.ml" 16 568 597 "game.ml" 16 568 827
+type(
+  string list
+)
+"game.ml" 16 568 596 "game.ml" 16 568 828
+type(
+  string list
+)
+"game.ml" 16 568 582 "game.ml" 16 568 828
+call(
+  stack
+)
+type(
+  string array
+)
+"game.ml" 18 833 843 "game.ml" 18 833 847
+type(
+  (string, entity) List.Assoc.t -> 'a
+)
+ident(
+  def loop "game.ml" 18 833 835 "game.ml" 43 2009 2092
+)
+"game.ml" 18 833 848 "game.ml" 18 833 856
+type(
+  (string, entity) List.Assoc.t
+)
+ident(
+  def entities "game.ml" 19 859 863 "game.ml" 42 1873 2005
+)
+"game.ml" 19 859 867 "game.ml" 19 859 873
+type(
+  Player.t
+)
+ident(
+  def player "game.ml" 22 977 981 "game.ml" 42 1873 2005
+)
+"game.ml" 19 859 883 "game.ml" 19 859 898
+type(
+  (string, entity) List.Assoc.t ->
+  ?equal:(string -> string -> bool) -> string -> entity option
+)
+ident(
+  ext_ref Core.Std.List.Assoc.find
+)
+"game.ml" 19 859 899 "game.ml" 19 859 907
+type(
+  (string, entity) List.Assoc.t
+)
+ident(
+  int_ref entities "game.ml" 18 833 848 "game.ml" 18 833 856
+)
+"game.ml" 19 859 908 "game.ml" 19 859 916
+type(
+  string
+)
+"game.ml" 19 859 883 "game.ml" 19 859 916
+call(
+  stack
+)
+type(
+  entity option
+)
+"game.ml" 20 923 935 "game.ml" 20 923 937
+type(
+  entity
+)
+ident(
+  def pl "game.ml" 20 923 941 "game.ml" 21 955 973
+)
+"game.ml" 20 923 930 "game.ml" 20 923 937
+type(
+  entity option
+)
+"game.ml" 20 923 947 "game.ml" 20 923 949
+type(
+  entity
+)
+ident(
+  int_ref pl "game.ml" 20 923 935 "game.ml" 20 923 937
+)
+"game.ml" 21 955 967 "game.ml" 21 955 968
+type(
+  Player.t
+)
+ident(
+  def p "game.ml" 21 955 972 "game.ml" 21 955 973
+)
+"game.ml" 21 955 960 "game.ml" 21 955 968
+type(
+  entity
+)
+"game.ml" 21 955 972 "game.ml" 21 955 973
+type(
+  Player.t
+)
+ident(
+  int_ref p "game.ml" 21 955 967 "game.ml" 21 955 968
+)
+"game.ml" 20 923 941 "game.ml" 21 955 973
+type(
+  Player.t
+)
+"game.ml" 19 859 876 "game.ml" 21 955 973
+type(
+  Player.t
+)
+"game.ml" 22 977 985 "game.ml" 22 977 989
+type(
+  Coin.t
+)
+ident(
+  def coin "game.ml" 25 1090 1094 "game.ml" 42 1873 2005
+)
+"game.ml" 22 977 1000 "game.ml" 22 977 1015
+type(
+  (string, entity) List.Assoc.t ->
+  ?equal:(string -> string -> bool) -> string -> entity option
+)
+ident(
+  ext_ref Core.Std.List.Assoc.find
+)
+"game.ml" 22 977 1016 "game.ml" 22 977 1024
+type(
+  (string, entity) List.Assoc.t
+)
+ident(
+  int_ref entities "game.ml" 18 833 848 "game.ml" 18 833 856
+)
+"game.ml" 22 977 1025 "game.ml" 22 977 1031
+type(
+  string
+)
+"game.ml" 22 977 1000 "game.ml" 22 977 1031
+call(
+  stack
+)
+type(
+  entity option
+)
+"game.ml" 23 1038 1050 "game.ml" 23 1038 1052
+type(
+  entity
+)
+ident(
+  def co "game.ml" 23 1038 1056 "game.ml" 24 1070 1086
+)
+"game.ml" 23 1038 1045 "game.ml" 23 1038 1052
+type(
+  entity option
+)
+"game.ml" 23 1038 1062 "game.ml" 23 1038 1064
+type(
+  entity
+)
+ident(
+  int_ref co "game.ml" 23 1038 1050 "game.ml" 23 1038 1052
+)
+"game.ml" 24 1070 1080 "game.ml" 24 1070 1081
+type(
+  Coin.t
+)
+ident(
+  def c "game.ml" 24 1070 1085 "game.ml" 24 1070 1086
+)
+"game.ml" 24 1070 1075 "game.ml" 24 1070 1081
+type(
+  entity
+)
+"game.ml" 24 1070 1085 "game.ml" 24 1070 1086
+type(
+  Coin.t
+)
+ident(
+  int_ref c "game.ml" 24 1070 1080 "game.ml" 24 1070 1081
+)
+"game.ml" 23 1038 1056 "game.ml" 24 1070 1086
+type(
+  Coin.t
+)
+"game.ml" 22 977 993 "game.ml" 24 1070 1086
+type(
+  Coin.t
+)
+"game.ml" 25 1090 1094 "game.ml" 25 1090 1100
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"game.ml" 25 1090 1109 "game.ml" 25 1090 1125
+type(
+  unit -> Event.t
+)
+ident(
+  ext_ref Sdl2.Event.poll_event
+)
+"game.ml" 25 1090 1126 "game.ml" 25 1090 1128
+type(
+  unit
+)
+"game.ml" 25 1090 1109 "game.ml" 25 1090 1128
+call(
+  stack
+)
+type(
+  Event.t
+)
+"game.ml" 26 1135 1140 "game.ml" 26 1135 1144
+type(
+  Event.t
+)
+"game.ml" 26 1135 1148 "game.ml" 26 1135 1156
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Sdl2.Etc.quit
+)
+"game.ml" 26 1135 1157 "game.ml" 26 1135 1159
+type(
+  unit
+)
+"game.ml" 26 1135 1148 "game.ml" 26 1135 1159
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 27 1160 1165 "game.ml" 27 1160 1169
+type(
+  Event.t
+)
+"game.ml" 27 1160 1173 "game.ml" 28 1215 1224
+type(
+  unit
+)
+"game.ml" 29 1225 1230 "game.ml" 29 1225 1231
+type(
+  Event.t
+)
+"game.ml" 29 1225 1235 "game.ml" 29 1225 1237
+type(
+  unit
+)
+"game.ml" 25 1090 1102 "game.ml" 29 1225 1237
+type(
+  unit
+)
+"game.ml" 25 1090 1094 "game.ml" 30 1238 1243
+type(
+  unit
+)
+"game.ml" 31 1245 1253 "game.ml" 31 1245 1260
+type(
+  int
+)
+ident(
+  def textnum "game.ml" 32 1351 1355 "game.ml" 42 1873 2005
+)
+"game.ml" 31 1245 1263 "game.ml" 31 1245 1273
+type(
+  int -> int
+)
+ident(
+  ext_ref Core.Std.Random.int
+)
+"game.ml" 31 1245 1275 "game.ml" 31 1245 1287
+type(
+  string array -> int
+)
+ident(
+  ext_ref Core.Std.Array.length
+)
+"game.ml" 31 1245 1288 "game.ml" 31 1245 1293
+type(
+  string array
+)
+ident(
+  int_ref texts "game.ml" 16 568 574 "game.ml" 16 568 579
+)
+"game.ml" 31 1245 1275 "game.ml" 31 1245 1293
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 31 1245 1263 "game.ml" 31 1245 1294
+call(
+  stack
+)
+type(
+  int
+)
+"game.ml" 32 1351 1355 "game.ml" 32 1351 1370
+type(
+  (unit, string) Result.t -> unit
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 32 1351 1372 "game.ml" 32 1351 1381
+type(
+  Render.t ->
+  Texture.t -> ?pos:Highlevel.Position.t -> unit -> (unit, string) Result.t
+)
+ident(
+  ext_ref Highlevel.Draw.draw
+)
+"game.ml" 32 1351 1382 "game.ml" 32 1351 1390
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 32 1351 1391 "game.ml" 32 1351 1401
+type(
+  Texture.t
+)
+ident(
+  int_ref background "game.ml" 10 323 329 "game.ml" 10 323 339
+)
+"game.ml" 32 1351 1402 "game.ml" 32 1351 1404
+type(
+  unit
+)
+"game.ml" 32 1351 1372 "game.ml" 32 1351 1404
+call(
+  stack
+)
+type(
+  (unit, string) Result.t
+)
+"game.ml" 32 1351 1355 "game.ml" 32 1351 1405
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 36 1593 1597 "game.ml" 36 1593 1612
+type(
+  (unit, string) Result.t -> unit
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 36 1593 1614 "game.ml" 36 1593 1623
+type(
+  Render.t ->
+  Texture.t -> ?pos:Highlevel.Position.t -> unit -> (unit, string) Result.t
+)
+ident(
+  ext_ref Highlevel.Draw.draw
+)
+"game.ml" 36 1593 1624 "game.ml" 36 1593 1632
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 36 1593 1634 "game.ml" 36 1593 1648
+type(
+  Player.t -> Texture.t
+)
+ident(
+  ext_ref Highlevel.Player.texture
+)
+"game.ml" 36 1593 1649 "game.ml" 36 1593 1655
+type(
+  Player.t
+)
+ident(
+  int_ref player "game.ml" 19 859 867 "game.ml" 19 859 873
+)
+"game.ml" 36 1593 1634 "game.ml" 36 1593 1655
+call(
+  stack
+)
+type(
+  Texture.t
+)
+"game.ml" 36 1593 1664 "game.ml" 36 1593 1679
+type(
+  Player.t -> Highlevel.Position.t
+)
+ident(
+  ext_ref Highlevel.Player.position
+)
+"game.ml" 36 1593 1680 "game.ml" 36 1593 1686
+type(
+  Player.t
+)
+ident(
+  int_ref player "game.ml" 19 859 867 "game.ml" 19 859 873
+)
+"game.ml" 36 1593 1664 "game.ml" 36 1593 1686
+call(
+  stack
+)
+type(
+  Highlevel.Position.t
+)
+"game.ml" 36 1593 1689 "game.ml" 36 1593 1691
+type(
+  unit
+)
+"game.ml" 36 1593 1614 "game.ml" 36 1593 1691
+call(
+  stack
+)
+type(
+  (unit, string) Result.t
+)
+"game.ml" 36 1593 1597 "game.ml" 36 1593 1692
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 37 1694 1698 "game.ml" 37 1694 1713
+type(
+  (unit, string) Result.t -> unit
+)
+ident(
+  ext_ref Highlevel.ordie
+)
+"game.ml" 37 1694 1715 "game.ml" 37 1694 1724
+type(
+  Render.t ->
+  Texture.t -> ?pos:Highlevel.Position.t -> unit -> (unit, string) Result.t
+)
+ident(
+  ext_ref Highlevel.Draw.draw
+)
+"game.ml" 37 1694 1725 "game.ml" 37 1694 1733
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 37 1694 1735 "game.ml" 37 1694 1747
+type(
+  Coin.t -> Texture.t
+)
+ident(
+  ext_ref Highlevel.Coin.texture
+)
+"game.ml" 37 1694 1748 "game.ml" 37 1694 1752
+type(
+  Coin.t
+)
+ident(
+  int_ref coin "game.ml" 22 977 985 "game.ml" 22 977 989
+)
+"game.ml" 37 1694 1735 "game.ml" 37 1694 1752
+call(
+  stack
+)
+type(
+  Texture.t
+)
+"game.ml" 37 1694 1761 "game.ml" 37 1694 1774
+type(
+  Coin.t -> Highlevel.Position.t
+)
+ident(
+  ext_ref Highlevel.Coin.position
+)
+"game.ml" 37 1694 1775 "game.ml" 37 1694 1779
+type(
+  Coin.t
+)
+ident(
+  int_ref coin "game.ml" 22 977 985 "game.ml" 22 977 989
+)
+"game.ml" 37 1694 1761 "game.ml" 37 1694 1779
+call(
+  stack
+)
+type(
+  Highlevel.Position.t
+)
+"game.ml" 37 1694 1782 "game.ml" 37 1694 1784
+type(
+  unit
+)
+"game.ml" 37 1694 1715 "game.ml" 37 1694 1784
+call(
+  stack
+)
+type(
+  (unit, string) Result.t
+)
+"game.ml" 37 1694 1698 "game.ml" 37 1694 1785
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 38 1787 1791 "game.ml" 38 1787 1805
+type(
+  Render.t -> unit
+)
+ident(
+  ext_ref Sdl2.Render.present
+)
+"game.ml" 38 1787 1806 "game.ml" 38 1787 1814
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 38 1787 1791 "game.ml" 38 1787 1814
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 39 1816 1820 "game.ml" 39 1816 1829
+type(
+  int -> unit
+)
+ident(
+  ext_ref Sdl2.Etc.delay
+)
+"game.ml" 39 1816 1831 "game.ml" 39 1816 1835
+type(
+  int
+)
+"game.ml" 39 1816 1836 "game.ml" 39 1816 1837
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"game.ml" 39 1816 1838 "game.ml" 39 1816 1840
+type(
+  int
+)
+"game.ml" 39 1816 1831 "game.ml" 39 1816 1840
+type(
+  int
+)
+"game.ml" 39 1816 1820 "game.ml" 39 1816 1841
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 42 1873 1877 "game.ml" 42 1873 1881
+type(
+  (string, entity) List.Assoc.t -> 'a
+)
+ident(
+  int_ref loop "game.ml" 18 833 843 "game.ml" 18 833 847
+)
+"game.ml" 42 1873 1883 "game.ml" 42 1873 1891
+type(
+  string
+)
+"game.ml" 42 1873 1901 "game.ml" 42 1873 1914
+type(
+  Player.t -> Player.t
+)
+ident(
+  ext_ref Highlevel.Player.update
+)
+"game.ml" 42 1873 1916 "game.ml" 42 1873 1928
+type(
+  Player.t -> bool array -> unit -> Player.t
+)
+ident(
+  ext_ref Highlevel.Player.react
+)
+"game.ml" 42 1873 1929 "game.ml" 42 1873 1935
+type(
+  Player.t
+)
+ident(
+  int_ref player "game.ml" 19 859 867 "game.ml" 19 859 873
+)
+"game.ml" 42 1873 1937 "game.ml" 42 1873 1962
+type(
+  unit -> bool array
+)
+ident(
+  ext_ref Sdl2.Event.KeyboardEvent.state
+)
+"game.ml" 42 1873 1963 "game.ml" 42 1873 1965
+type(
+  unit
+)
+"game.ml" 42 1873 1937 "game.ml" 42 1873 1965
+call(
+  stack
+)
+type(
+  bool array
+)
+"game.ml" 42 1873 1967 "game.ml" 42 1873 1969
+type(
+  unit
+)
+"game.ml" 42 1873 1916 "game.ml" 42 1873 1969
+call(
+  stack
+)
+type(
+  Player.t
+)
+"game.ml" 42 1873 1901 "game.ml" 42 1873 1970
+call(
+  stack
+)
+type(
+  Player.t
+)
+"game.ml" 42 1873 1893 "game.ml" 42 1873 1971
+type(
+  entity
+)
+"game.ml" 42 1873 1883 "game.ml" 42 1873 1971
+type(
+  string * entity
+)
+"game.ml" 42 1873 1973 "game.ml" 42 1873 1979
+type(
+  string
+)
+"game.ml" 42 1873 1987 "game.ml" 42 1873 1998
+type(
+  Coin.t -> Coin.t
+)
+ident(
+  ext_ref Highlevel.Coin.update
+)
+"game.ml" 42 1873 1999 "game.ml" 42 1873 2003
+type(
+  Coin.t
+)
+ident(
+  int_ref coin "game.ml" 22 977 985 "game.ml" 22 977 989
+)
+"game.ml" 42 1873 1987 "game.ml" 42 1873 2003
+call(
+  stack
+)
+type(
+  Coin.t
+)
+"game.ml" 42 1873 1981 "game.ml" 42 1873 2004
+type(
+  entity
+)
+"game.ml" 42 1873 1973 "game.ml" 42 1873 2004
+type(
+  string * entity
+)
+type(
+  (string * entity) list
+)
+"game.ml" 42 1873 1883 "game.ml" 42 1873 2004
+type(
+  (string, entity) List.Assoc.t
+)
+"game.ml" 42 1873 1882 "game.ml" 42 1873 2005
+type(
+  (string * entity) list
+)
+"game.ml" 42 1873 1877 "game.ml" 42 1873 2005
+call(
+  tail
+)
+type(
+  'a
+)
+"game.ml" 39 1816 1820 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 38 1787 1791 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 37 1694 1698 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 36 1593 1597 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 32 1351 1355 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 31 1245 1249 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 25 1090 1094 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 22 977 981 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 19 859 863 "game.ml" 42 1873 2005
+type(
+  'a
+)
+"game.ml" 18 833 848 "game.ml" 42 1873 2005
+type(
+  (string, entity) List.Assoc.t -> 'a
+)
+"game.ml" 43 2009 2011 "game.ml" 43 2009 2015
+type(
+  (string, entity) List.Assoc.t -> unit
+)
+ident(
+  int_ref loop "game.ml" 18 833 843 "game.ml" 18 833 847
+)
+"game.ml" 43 2009 2017 "game.ml" 43 2009 2025
+type(
+  string
+)
+"game.ml" 43 2009 2035 "game.ml" 43 2009 2046
+type(
+  Render.t -> Player.t
+)
+ident(
+  ext_ref Highlevel.Player.make
+)
+"game.ml" 43 2009 2047 "game.ml" 43 2009 2055
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 43 2009 2035 "game.ml" 43 2009 2055
+call(
+  stack
+)
+type(
+  Player.t
+)
+"game.ml" 43 2009 2027 "game.ml" 43 2009 2056
+type(
+  entity
+)
+"game.ml" 43 2009 2017 "game.ml" 43 2009 2056
+type(
+  string * entity
+)
+"game.ml" 43 2009 2058 "game.ml" 43 2009 2064
+type(
+  string
+)
+"game.ml" 43 2009 2072 "game.ml" 43 2009 2081
+type(
+  Render.t -> Coin.t
+)
+ident(
+  ext_ref Highlevel.Coin.make
+)
+"game.ml" 43 2009 2082 "game.ml" 43 2009 2090
+type(
+  Render.t
+)
+ident(
+  int_ref renderer "game.ml" 9 264 270 "game.ml" 9 264 278
+)
+"game.ml" 43 2009 2072 "game.ml" 43 2009 2090
+call(
+  stack
+)
+type(
+  Coin.t
+)
+"game.ml" 43 2009 2066 "game.ml" 43 2009 2091
+type(
+  entity
+)
+"game.ml" 43 2009 2058 "game.ml" 43 2009 2091
+type(
+  string * entity
+)
+type(
+  (string * entity) list
+)
+"game.ml" 43 2009 2017 "game.ml" 43 2009 2091
+type(
+  (string, entity) List.Assoc.t
+)
+"game.ml" 43 2009 2016 "game.ml" 43 2009 2092
+type(
+  (string * entity) list
+)
+"game.ml" 43 2009 2011 "game.ml" 43 2009 2092
+call(
+  stack
+)
+type(
+  unit
+)
+"game.ml" 18 833 835 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 16 568 570 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 14 435 437 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 12 393 395 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 10 323 325 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 9 264 266 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 8 150 152 "game.ml" 43 2009 2092
+type(
+  unit
+)
+"game.ml" 7 98 100 "game.ml" 43 2009 2092
+type(
+  unit
+)

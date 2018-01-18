@@ -1,0 +1,124 @@
+* SDL Events
+** Getting Events
+   Latest event is fetched with (sdl-poll-event! e)
+   Note that since poll-event! is a non-functional(in the mathematical
+   sense) function, "e" must exist before it's used, and you can
+   create an event with make-sdl-event. It should be possible to pass
+   around the event to save time, but creating a new event each loop
+   also works.
+
+** Using Events
+*** Getting Event Type
+    To extract the event type, use (sdl-event-type e), which will
+    return the event type as an SDL Event Type constant. See table of
+    all SDL Events and Event Types for reference there.
+*** Getting the Event Itself
+    The actual Event itself is retrieved using (sdl-event-sym e). Like
+    sdl-event-type it returns a constant, but in this case it's an SDL
+    Event constant instead of an Event Type constant. Make sure that
+    you check which event type you're dealing with beforehand, because
+    these obviously have different meanings depending on context(An
+    obvious example being whether the event is a key press or a key
+    release.) Again, see the reference table of SDL Events and Types.
+
+** Table of Events and Types
+*** Event Types
+Joysticks are left out because I don't have one and I don't plan on
+supporting them in the immediate future. They also seem to be the most
+complex of input event types.
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| Type                | Description                                                                                                      |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_QUIT            | Window has been closed, or the program is otherwise terminated.                                                  |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_ACTIVEEVENT     | An activeness event has happened(mouse focus gained/lost, keyboard focus gained/lost, app minimized/unminimized) |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_VIDEORESIZE     | Window has been resized(Can only happen if you pass SDL_RESIZABLE as a flag when you set the video mode)         |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_EXPOSEEVENT     | Window needs to be redrawn for some reason(newly unminimized, buffer otherwise lost)                             |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_KEYDOWN         | A key has been pressed                                                                                           |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_KEYUP           | A key has been released                                                                                          |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_MOUSEMOTION     | The mouse has been moved within the window                                                                       |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_MOUSEBUTTONDOWN | Mouse button has been pressed                                                                                    |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+| SDL_MOUSEBUTTONUP   | Mouse button released                                                                                            |
+|---------------------+------------------------------------------------------------------------------------------------------------------|
+
+*** Events
+**** Keyboard
+All are of the type SDL_KEYDOWN/UP. All keys are generally the typed
+out version of what they have on them, preceeded by SDLK_(so & is
+SDLK_AMPERSTAND.) There are no uppercase letters here, what you need
+to do is check if a shift modifier is on at the same time as the
+letter press.
+Ambiguous ones to follow:
+|-----------------+----------------------------------------|
+| SDLK_UNKNOWN    | an unknown key                         |
+| SDLK_BACKSPACE  | backspace                              |
+| SDLK_DELETE     | del key, *not* a synonym for backspace |
+| SDLK_ENTER      | enter/return                           |
+| SDLK_EXCLAIM    | !                                      |
+| SDLK_QUOTEDBL   | "                                      |
+| SDLK_SPACE      | space bar                              |
+| SDLK_LEFTPAREN  | (                                      |
+| SDLK_RIGHTPAREN | )                                      |
+| SDLK_QUESTION   | ?                                      |
+| SDLK_EQUALS     | =                                      |
+|-----------------+----------------------------------------|
+
+Keypads are handled by SDLK_KP[number], where [number] is the number. The non-number
+ones get a bit more interesting. They're the form of SDLK_KP_[key],
+where [key] is the key in its math context. so + becomes SDLK_KP_PLUS,
+etc. PERIOD and ENTER aren't affected by this.
+
+Modifiers(Do (+ MODIFIER KEY) to find these)
+|----------------+------------------------------------|
+| SDLK_NUMLOCK   | numlock on                         |
+|----------------+------------------------------------|
+| SDLK_CAPSLOCK  | capslock on                        |
+|----------------+------------------------------------|
+| SDLK_SCROLLOCK | scroll lock on                     |
+|----------------+------------------------------------|
+| SDLK_RSHIFT    | right shift                        |
+|----------------+------------------------------------|
+| SDLK_LSHIFT    | left shift                         |
+|----------------+------------------------------------|
+| SDLK_RCTRL     | right control                      |
+|----------------+------------------------------------|
+| SDLK_LCTRL     | left control                       |
+|----------------+------------------------------------|
+| SDLK_RSUPER    | right super("windows/command") key |
+|----------------+------------------------------------|
+| SDLK_LSUPER    | left super                         |
+|----------------+------------------------------------|
+| SDLK_RALT      | right alt                          |
+|----------------+------------------------------------|
+| SDLK_LALT      | left alt                           |
+|----------------+------------------------------------|
+| SDLK_MODE      | AltGr(you may not have this)       |
+|----------------+------------------------------------|
+
+**** Mouse
+retrieve current mouse X with (sdl-event-x e) plus Y with
+(sdl-event-y e).
+* Entity Events
+This is all completely subject to change, but how I currently envision the events working is:
+each entity has an internal event queue, event-queue, this is a list. Each entity in the list 
+is a pair of the event and the callback associated with it. Then each update! the entity is
+expected to do a for-each on the event queue running the cadr of each element with the car
+as the argument. Which event maps to what callback is handled at the time of the insertion
+by a function which basically takes the type of the event(a symbol, probably) and just inserts
+the correct callback type. So a :collision will trigger on-collide.
+* Hierarchy
+  A game is composed of a set of rooms, each room may have one or more following rooms. Rooms contain a set of entities that
+  act as all interactable objects in the room, these are held in a list. The player always come first in the list.  Each room can 
+  contain multiple "exits" which are merely other rooms, kept in a vector. When a room is initialized, it initializes all entities,
+  possibly changing based on arguments fed to it from the last room(player position, for example.) After this, the room registers the
+  callbacks responsible for the exit condition(s,) so, for example, a handler if the player leaves the screen, or if the player dies.
+  Once initialization is done, control is handed to the main loop, which loops until a room exit event is reached. registered callbacks
+  are removed on room close, as well as specific ones being removed as entities are removed from the game, which may not be at the end
+  of a room.

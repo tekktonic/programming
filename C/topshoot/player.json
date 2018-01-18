@@ -1,0 +1,8 @@
+{
+    "constructor" : "player",
+    "texture": "player.png",
+    "update": "player",
+    "layer": "player",
+    "react": "die",
+    "obj_hints": {"speed": 10, "position": {"x": 200, "y": 200}, "radius": 16.0, "layer_collide": "enemy"}
+}

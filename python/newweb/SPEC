@@ -1,0 +1,27 @@
+This document should specify the tekknet protocol, for use in any implementation. If the implementation of one of my tools or the server is wrong, please tell me and either the spec or the program will be fixed(probably the program.)
+
+connection:(will probably change almost completely)
+	A program connects to a server by opening an inet stream socket(or platform's equivalent,) to the server on port 1337. Once connected, a command is sent, the output of the command is received, and then the socket is closed(this is the part that will probably change.)
+
+commands:
+	A command is defined as a string including a server command, (usually) a file to be acted on, and then optionally(and not in every server command, this is currently to keep myself extensible,) and terminated with \r\n(line feed, newline)more arguments.
+	the current server commands are LIST, GET, and SIZE, described as follows:
+	LIST {directory} lists the contents of the directory argument. The format for each item of output is F/D(depending on whether something is a file or a directory,) followed by a tab, then the file/directory name.
+
+	GET {file} will retrieve the file argument, it's sent out on the socket plainly, with no conversion. text is treated identically to a binary, with any required conversion(looking at you, windows,) to be performed by the client.
+
+	SIZE {file} returns the size of a file in bytes.
+
+	ENDING has no argument, it merely returns "POSIX" or "WIN" depending on whether the host system uses unix or windows line endings.
+
+the following commands are reserved, so don't extend with these names:
+    SEND
+
+    SLOGIN
+    SLOGOUT
+    SLIST
+    SSIZE
+    SGET
+    SSEND
+
+SEND is a command to send data to the server, the S{command} commands denote a "secure" command, to be performed over an encrypted connection(protocol tbd.)

@@ -1,0 +1,7 @@
+statically typed lisp.
+Type inferred.
+
+(define name type-constructor ...)
+where type-constructor is: a literal (string, cons cell, list, number, function), or a constructor function
+
+no macros

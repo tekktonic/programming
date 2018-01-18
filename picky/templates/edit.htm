@@ -1,0 +1,15 @@
+Content-type: text/html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
+    <title>${title}</title>
+  </head>
+  <body>
+    <b><a href="picky.cgi?view=${title}"><br/><br/>
+    <form name="Edit page" action="picky.cgi" method="post">
+      <input type="text" value=${pageText}/>
+      <input type="submit"/>
+  </body>
+</html>

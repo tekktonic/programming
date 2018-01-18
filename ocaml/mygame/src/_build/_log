@@ -1,0 +1,80 @@
+### Starting build.
+# Target: game.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:game.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamldep -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules game.ml > game.ml.depends
+# Target: highlevel.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:highlevel.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamldep -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules highlevel.ml > highlevel.ml.depends # cached
+# Target: sdl2.ml.depends, tags: { annot, bin_annot, debug, extension:ml, file:sdl2.ml, ocaml, ocamldep, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamldep -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -modules sdl2.ml > sdl2.ml.depends # cached
+# Target: sdl2.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:sdl2.cmo, file:sdl2.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o sdl2.cmo sdl2.ml # cached
+# Target: highlevel.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:highlevel.cmo, file:highlevel.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o highlevel.cmo highlevel.ml # cached
+# Target: game.cmo, tags: { annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:game.cmo, file:game.ml, implem, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o game.cmo game.ml
++ ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o game.cmo game.ml
+File "game.ml", line 20, characters 18-50:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Coin _
+File "game.ml", line 19, characters 17-114:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+None
+File "game.ml", line 23, characters 18-48:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Player _
+File "game.ml", line 22, characters 16-109:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+None
+File "game.ml", line 14, characters 6-18:
+Warning 26: unused variable random_color.
+File "game.ml", line 31, characters 8-15:
+Warning 26: unused variable textnum.
+# Target: sdl2.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:sdl2.cmx, file:sdl2.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o sdl2.cmx sdl2.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o sdl2.cmx sdl2.ml
+File "sdl2.ml", line 381, characters 8-13:
+Warning 26: unused variable toint.
+File "sdl2.ml", line 397, characters 6-11:
+Warning 32: unused value white.
+File "sdl2.ml", line 398, characters 6-11:
+Warning 32: unused value black.
+# Target: highlevel.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:highlevel.cmx, file:highlevel.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o highlevel.cmx highlevel.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o highlevel.cmx highlevel.ml
+File "highlevel.ml", line 8, characters 14-42:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+None
+File "highlevel.ml", line 33, characters 11-12:
+Warning 27: unused variable p.
+File "highlevel.ml", line 79, characters 22-30:
+Warning 27: unused variable entities.
+# Target: game.cmx, tags: { annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:game.cmx, file:game.ml, implem, native, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o game.cmx game.ml
++ ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -g -annot -bin-annot -short-paths -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core -o game.cmx game.ml
+File "game.ml", line 20, characters 18-50:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Coin _
+File "game.ml", line 19, characters 17-114:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+None
+File "game.ml", line 23, characters 18-48:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+Player _
+File "game.ml", line 22, characters 16-109:
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a value that is not matched:
+None
+File "game.ml", line 14, characters 6-18:
+Warning 26: unused variable random_color.
+File "game.ml", line 31, characters 8-15:
+Warning 26: unused variable textnum.
+# Target: game.native, tags: { annot, bin_annot, debug, dont_link_with, extension:native, file:game.native, link, native, ocaml, package(bin_prot.syntax), package(core), package(ctypes), package(ctypes.foreign), package(sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax), program, quiet, short_paths, syntax(camlp4o), thread }
+ocamlfind ocamlopt -cclib -lSDL2 -cclib -lSDL2_image -cclib -lSDL2_ttf -linkpkg -g -thread -syntax camlp4o -package ctypes -package ctypes.foreign -package bin_prot.syntax -package sexplib.syntax,comparelib.syntax,fieldslib.syntax,variantslib.syntax -package core sdl2.cmx highlevel.cmx game.cmx -o game.native
+# Compilation successful.

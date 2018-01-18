@@ -1,0 +1,3 @@
+ösvË¹.!z²¦2–oé¡5:FTi†ø)š×îß_´šdY+U9À,¥Ké)À–h: stash.c
+       gcc -Wall -pedantic -std=c99 stash.c -o stash
+       echo # needed to ensure a newline in eshell

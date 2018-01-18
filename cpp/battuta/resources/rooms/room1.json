@@ -1,0 +1,18 @@
+{
+    "id" : "room1",
+    "background": "room1_bg.png",
+    "foreground": "room1_fg.png",
+    "walkareas": [[0, 128, 1280, 620]],
+    "entrance": [8, 129],
+    "items": [
+        {
+            "id": 0,
+            "type": 0,
+            "name": "A thing of stuff",
+            "position": [640, 480],
+            "room_image": "thing.png",
+            "inv_image": "thing_inventory.png"
+        }
+    ],
+    "doors": []
+}

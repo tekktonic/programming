@@ -1,0 +1,7 @@
+body {background-color: #333333; color:#222222}
+div.content {background-color: #dddddd;margin: 0 auto;padding: 2%;width: 78%;border-radius: 5px}
+
+a:link{color:blue;text-decoration:none}
+a:visited{color:purple;text-decoration:none}
+
+div.title {text-align: center;font-size: 150%}

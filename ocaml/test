@@ -1,0 +1,2573 @@
+execve("./dirwrap.native", ["./dirwrap.native"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x103b000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d760d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=265894, ...}) = 0
+mmap(NULL, 265894, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fc0d75cc000
+close(4)                                = 0
+open("/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\"\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=42592, ...}) = 0
+mmap(NULL, 2128984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc0d71e3000
+mprotect(0x7fc0d71ea000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0d73e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x6000) = 0x7fc0d73e9000
+close(4)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000l\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=134893, ...}) = 0
+mmap(NULL, 2212896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc0d6fc6000
+mprotect(0x7fc0d6fdd000, 2097152, PROT_NONE) = 0
+mmap(0x7fc0d71dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x17000) = 0x7fc0d71dd000
+mmap(0x7fc0d71df000, 13344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0d71df000
+close(4)                                = 0
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260T\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=1125896, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d75cb000
+mmap(NULL, 3150184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc0d6cc4000
+mprotect(0x7fc0d6dc5000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0d6fc4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x100000) = 0x7fc0d6fc4000
+close(4)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\16\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=18988, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc0d6ac0000
+mprotect(0x7fc0d6ac3000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0d6cc2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7fc0d6cc2000
+close(4)                                = 0
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\36\2\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=2098910, ...}) = 0
+mmap(NULL, 3965536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc0d66f7000
+mprotect(0x7fc0d68b6000, 2093056, PROT_NONE) = 0
+mmap(0x7fc0d6ab5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1be000) = 0x7fc0d6ab5000
+mmap(0x7fc0d6abb000, 16992, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc0d6abb000
+close(4)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d75ca000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d75c8000
+arch_prctl(ARCH_SET_FS, 0x7fc0d75c8740) = 0
+mprotect(0x7fc0d6ab5000, 16384, PROT_READ) = 0
+mprotect(0x7fc0d6cc2000, 4096, PROT_READ) = 0
+mprotect(0x7fc0d6fc4000, 4096, PROT_READ) = 0
+mprotect(0x7fc0d71dd000, 4096, PROT_READ) = 0
+mprotect(0x7fc0d73e9000, 4096, PROT_READ) = 0
+mprotect(0x7fc0d760e000, 4096, PROT_READ) = 0
+munmap(0x7fc0d75cc000, 265894)          = 0
+set_tid_address(0x7fc0d75c8a10)         = 12426
+set_robust_list(0x7fc0d75c8a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fc0d6fcc790, [], SA_RESTORER|SA_SIGINFO, 0x7fc0d6fd5670}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fc0d6fcc820, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fc0d6fd5670}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x103b000
+brk(0x105c000)                          = 0x105c000
+mmap(NULL, 2105344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d64f5000
+mmap(NULL, 1024000, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc0d74ce000
+sigaltstack({ss_sp=0x667440, ss_flags=0, ss_size=8192}, NULL) = 0
+rt_sigaction(SIGSEGV, {0x42dab0, [], SA_RESTORER|SA_STACK|SA_NODEFER|SA_SIGINFO, 0x7fc0d6fd5670}, NULL, 8) = 0
+readlink("/proc/self/exe", "/home/danny/programming/ocaml/_b"..., 256) = 51
+stat("/home/danny/programming/ocaml/_build/dirwrap.native", {st_mode=S_IFREG|0755, st_size=581561, ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+brk(0x1084000)                          = 0x1084000
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+openat(AT_FDCWD, "/home/danny/.opam/system/lib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 88 entries */, 32768)    = 2784
+getdents(4, /* 0 entries */, 32768)     = 0
+lstat("/home/danny/.opam/system/lib/.", {st_mode=S_IFDIR|0755, st_size=1432, ...}) = 0
+lstat("/home/danny/.opam/system/lib/..", {st_mode=S_IFDIR|0755, st_size=162, ...}) = 0
+lstat("/home/danny/.opam/system/lib/base-bigarray", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/base-threads", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/base-unix", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/findlib.conf", {st_mode=S_IFREG|0644, st_size=167, ...}) = 0
+lstat("/home/danny/.opam/system/lib/findlib", {st_mode=S_IFDIR|0755, st_size=424, ...}) = 0
+lstat("/home/danny/.opam/system/lib/bytes", {st_mode=S_IFDIR|0755, st_size=116, ...}) = 0
+lstat("/home/danny/.opam/system/lib/bigarray", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/camlp4", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/compiler-libs", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/dynlink", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/graphics", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/labltk", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/num", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/num-top", {st_mode=S_IFDIR|0755, st_size=92, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ocamlbuild", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/stdlib", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/str", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/threads", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/unix", {st_mode=S_IFDIR|0755, st_size=8, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ocamlfind", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ANSITerminal", {st_mode=S_IFDIR|0755, st_size=324, ...}) = 0
+lstat("/home/danny/.opam/system/lib/base-bytes", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/camomile", {st_mode=S_IFDIR|0755, st_size=584, ...}) = 0
+lstat("/home/danny/.opam/system/lib/cmdliner", {st_mode=S_IFDIR|0755, st_size=176, ...}) = 0
+lstat("/home/danny/.opam/system/lib/cppo_ocamlbuild", {st_mode=S_IFDIR|0755, st_size=198, ...}) = 0
+lstat("/home/danny/.opam/system/lib/cppo", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/easy-format", {st_mode=S_IFDIR|0755, st_size=186, ...}) = 0
+lstat("/home/danny/.opam/system/lib/herelib", {st_mode=S_IFDIR|0755, st_size=320, ...}) = 0
+lstat("/home/danny/.opam/system/lib/menhir", {st_mode=S_IFDIR|0755, st_size=24, ...}) = 0
+lstat("/home/danny/.opam/system/lib/menhirLib", {st_mode=S_IFDIR|0755, st_size=108, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netsys", {st_mode=S_IFDIR|0755, st_size=2514, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netshm", {st_mode=S_IFDIR|0755, st_size=348, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netstring", {st_mode=S_IFDIR|0755, st_size=8276, ...}) = 0
+lstat("/home/danny/.opam/system/lib/equeue", {st_mode=S_IFDIR|0755, st_size=744, ...}) = 0
+lstat("/home/danny/.opam/system/lib/shell", {st_mode=S_IFDIR|0755, st_size=286, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netgssapi", {st_mode=S_IFDIR|0755, st_size=194, ...}) = 0
+lstat("/home/danny/.opam/system/lib/rpc-generator", {st_mode=S_IFDIR|0755, st_size=454, ...}) = 0
+lstat("/home/danny/.opam/system/lib/rpc", {st_mode=S_IFDIR|0755, st_size=1102, ...}) = 0
+lstat("/home/danny/.opam/system/lib/rpc-auth-local", {st_mode=S_IFDIR|0755, st_size=344, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pop", {st_mode=S_IFDIR|0755, st_size=122, ...}) = 0
+lstat("/home/danny/.opam/system/lib/smtp", {st_mode=S_IFDIR|0755, st_size=136, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netclient", {st_mode=S_IFDIR|0755, st_size=594, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netcgi2", {st_mode=S_IFDIR|0755, st_size=640, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netplex", {st_mode=S_IFDIR|0755, st_size=1864, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netcgi2-plex", {st_mode=S_IFDIR|0755, st_size=232, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netcamlbox", {st_mode=S_IFDIR|0755, st_size=208, ...}) = 0
+lstat("/home/danny/.opam/system/lib/netmulticore", {st_mode=S_IFDIR|0755, st_size=1268, ...}) = 0
+lstat("/home/danny/.opam/system/lib/nethttpd", {st_mode=S_IFDIR|0755, st_size=670, ...}) = 0
+lstat("/home/danny/.opam/system/lib/nethttpd-for-netcgi2", {st_mode=S_IFDIR|0755, st_size=22, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ocamlnet", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/sdl", {st_mode=S_IFDIR|0755, st_size=1230, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ocamlsdl", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/omake", {st_mode=S_IFDIR|0755, st_size=162, ...}) = 0
+lstat("/home/danny/.opam/system/lib/oUnit", {st_mode=S_IFDIR|0755, st_size=2776, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ounit", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pa_pipebang", {st_mode=S_IFDIR|0755, st_size=216, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pipebang", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/react", {st_mode=S_IFDIR|0755, st_size=258, ...}) = 0
+lstat("/home/danny/.opam/system/lib/type_conv", {st_mode=S_IFDIR|0755, st_size=232, ...}) = 0
+lstat("/home/danny/.opam/system/lib/bin_prot", {st_mode=S_IFDIR|0755, st_size=564, ...}) = 0
+lstat("/home/danny/.opam/system/lib/biniou", {st_mode=S_IFDIR|0755, st_size=954, ...}) = 0
+lstat("/home/danny/.opam/system/lib/comparelib", {st_mode=S_IFDIR|0755, st_size=432, ...}) = 0
+lstat("/home/danny/.opam/system/lib/ctypes", {st_mode=S_IFDIR|0755, st_size=2858, ...}) = 0
+lstat("/home/danny/.opam/system/lib/enumerate", {st_mode=S_IFDIR|0755, st_size=208, ...}) = 0
+lstat("/home/danny/.opam/system/lib/fieldslib", {st_mode=S_IFDIR|0755, st_size=434, ...}) = 0
+lstat("/home/danny/.opam/system/lib/lwt", {st_mode=S_IFDIR|0755, st_size=4014, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pa_ounit", {st_mode=S_IFDIR|0755, st_size=444, ...}) = 0
+lstat("/home/danny/.opam/system/lib/sexplib_unix", {st_mode=S_IFDIR|0755, st_size=240, ...}) = 0
+lstat("/home/danny/.opam/system/lib/sexplib_num", {st_mode=S_IFDIR|0755, st_size=240, ...}) = 0
+lstat("/home/danny/.opam/system/lib/sexplib", {st_mode=S_IFDIR|0755, st_size=958, ...}) = 0
+lstat("/home/danny/.opam/system/lib/variantslib", {st_mode=S_IFDIR|0755, st_size=490, ...}) = 0
+lstat("/home/danny/.opam/system/lib/zed", {st_mode=S_IFDIR|0755, st_size=658, ...}) = 0
+lstat("/home/danny/.opam/system/lib/custom_printf", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+lstat("/home/danny/.opam/system/lib/lambda-term", {st_mode=S_IFDIR|0755, st_size=2184, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pa_bench", {st_mode=S_IFDIR|0755, st_size=472, ...}) = 0
+lstat("/home/danny/.opam/system/lib/pa_test", {st_mode=S_IFDIR|0755, st_size=420, ...}) = 0
+lstat("/home/danny/.opam/system/lib/typerep_lib", {st_mode=S_IFDIR|0755, st_size=818, ...}) = 0
+lstat("/home/danny/.opam/system/lib/typerep_generics_sexprep", {st_mode=S_IFDIR|0755, st_size=378, ...}) = 0
+lstat("/home/danny/.opam/system/lib/typerep_extended", {st_mode=S_IFDIR|0755, st_size=458, ...}) = 0
+lstat("/home/danny/.opam/system/lib/typerep", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+lstat("/home/danny/.opam/system/lib/yojson", {st_mode=S_IFDIR|0755, st_size=328, ...}) = 0
+lstat("/home/danny/.opam/system/lib/core_kernel", {st_mode=S_IFDIR|0755, st_size=6280, ...}) = 0
+lstat("/home/danny/.opam/system/lib/utop", {st_mode=S_IFDIR|0755, st_size=720, ...}) = 0
+lstat("/home/danny/.opam/system/lib/core", {st_mode=S_IFDIR|0755, st_size=5404, ...}) = 0
+lstat("/home/danny/.opam/system/lib/toplevel", {st_mode=S_IFDIR|0755, st_size=14, ...}) = 0
+lstat("/home/danny/.opam/system/lib/stublibs", {st_mode=S_IFDIR|0755, st_size=1464, ...}) = 0
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/.\n", 31) = 31
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/..\n", 32) = 32
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bas"..., 43) = 43
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bas"..., 42) = 42
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bas"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/fin"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/byt"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/big"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cam"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/com"..., 43) = 43
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/dyn"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/gra"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/lab"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/num"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/num"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oca"..., 40) = 40
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/std"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/str"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/thr"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/uni"..., 34) = 34
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oca"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/ANS"..., 42) = 42
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bas"..., 40) = 40
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cam"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cmd"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cpp"..., 45) = 45
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cpp"..., 34) = 34
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/eas"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/her"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/men"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/men"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/equ"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/she"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/rpc"..., 43) = 43
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/rpc"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/rpc"..., 44) = 44
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pop"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/smt"..., 34) = 34
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 42) = 42
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 40) = 40
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 42) = 42
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/net"..., 50) = 50
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oca"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/sdl"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oca"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oma"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oUn"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/oun"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pa_"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pip"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/rea"..., 35) = 35
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/typ"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bin"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/bin"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/com"..., 40) = 40
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cty"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/enu"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/fie"..., 39) = 39
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/lwt"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pa_"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/sex"..., 42) = 42
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/sex"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/sex"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/var"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/zed"..., 33) = 33
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cus"..., 43) = 43
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/lam"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pa_"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/pa_"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/typ"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/typ"..., 54) = 54
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/typ"..., 46) = 46
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/typ"..., 37) = 37
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/yoj"..., 36) = 36
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cor"..., 41) = 41
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/uto"..., 34) = 34
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/cor"..., 34) = 34
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/top"..., 38) = 38
+write(1, "-I\n", 3)                     = 3
+write(1, "/home/danny/.opam/system/lib/stu"..., 38) = 38
+execve("/home/danny/.opam/system/bin/ocamlbrowser", ["-I", "/home/danny/.opam/system/lib/.", "-I", "/home/danny/.opam/system/lib/..", "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/fin"..., "-I", "/home/danny/.opam/system/lib/byt"..., "-I", "/home/danny/.opam/system/lib/big"..., ...], [/* 45 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/danny/perl5/bin/ocamlbrowser", ["-I", "/home/danny/.opam/system/lib/.", "-I", "/home/danny/.opam/system/lib/..", "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/fin"..., "-I", "/home/danny/.opam/system/lib/byt"..., "-I", "/home/danny/.opam/system/lib/big"..., ...], [/* 45 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/danny/.opam/system/bin/ocamlbrowser", ["-I", "/home/danny/.opam/system/lib/.", "-I", "/home/danny/.opam/system/lib/..", "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/fin"..., "-I", "/home/danny/.opam/system/lib/byt"..., "-I", "/home/danny/.opam/system/lib/big"..., ...], [/* 45 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/local/bin/ocamlbrowser", ["-I", "/home/danny/.opam/system/lib/.", "-I", "/home/danny/.opam/system/lib/..", "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/fin"..., "-I", "/home/danny/.opam/system/lib/byt"..., "-I", "/home/danny/.opam/system/lib/big"..., ...], [/* 45 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/bin/ocamlbrowser", ["-I", "/home/danny/.opam/system/lib/.", "-I", "/home/danny/.opam/system/lib/..", "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/bas"..., "-I", "/home/danny/.opam/system/lib/fin"..., "-I", "/home/danny/.opam/system/lib/byt"..., "-I", "/home/danny/.opam/system/lib/big"..., ...], [/* 45 vars */]) = 0
+brk(0)                                  = 0x1323000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432535d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=265894, ...}) = 0
+mmap(NULL, 265894, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f432531c000
+close(4)                                = 0
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260T\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=1125896, ...}) = 0
+mmap(NULL, 3150184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4324e39000
+mprotect(0x7f4324f3a000, 2093056, PROT_NONE) = 0
+mmap(0x7f4325139000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x100000) = 0x7f4325139000
+close(4)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\16\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=18988, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4324c35000
+mprotect(0x7f4324c38000, 2093056, PROT_NONE) = 0
+mmap(0x7f4324e37000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7f4324e37000
+close(4)                                = 0
+open("/lib64/libncurses.so.5", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300/\1\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=350504, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432531b000
+mmap(NULL, 2448592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f43249df000
+mprotect(0x7f4324a30000, 2097152, PROT_NONE) = 0
+mmap(0x7f4324c30000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x51000) = 0x7f4324c30000
+close(4)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000l\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=134893, ...}) = 0
+mmap(NULL, 2212896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f43247c2000
+mprotect(0x7f43247d9000, 2097152, PROT_NONE) = 0
+mmap(0x7f43249d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x17000) = 0x7f43249d9000
+mmap(0x7f43249db000, 13344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f43249db000
+close(4)                                = 0
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\36\2\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=2098910, ...}) = 0
+mmap(NULL, 3965536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f43243f9000
+mprotect(0x7f43245b8000, 2093056, PROT_NONE) = 0
+mmap(0x7f43247b7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1be000) = 0x7f43247b7000
+mmap(0x7f43247bd000, 16992, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f43247bd000
+close(4)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432531a000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4325318000
+arch_prctl(ARCH_SET_FS, 0x7f4325318740) = 0
+mprotect(0x7f43247b7000, 16384, PROT_READ) = 0
+mprotect(0x7f43249d9000, 4096, PROT_READ) = 0
+mprotect(0x7f4324e37000, 4096, PROT_READ) = 0
+mprotect(0x7f4325139000, 4096, PROT_READ) = 0
+mprotect(0x7f432535e000, 4096, PROT_READ) = 0
+munmap(0x7f432531c000, 265894)          = 0
+set_tid_address(0x7f4325318a10)         = 12426
+set_robust_list(0x7f4325318a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f43247c8790, [], SA_RESTORER|SA_SIGINFO, 0x7f43247d1670}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f43247c8820, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f43247d1670}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0x1323000
+brk(0x1344000)                          = 0x1344000
+readlink("/proc/self/exe", "/usr/bin/ocamlrun", 256) = 17
+stat("/usr/bin/ocamlrun", {st_mode=S_IFREG|0755, st_size=189936, ...}) = 0
+open("/usr/bin/ocamlrun", O_RDONLY)     = 4
+read(4, "\177E", 2)                     = 2
+lseek(4, -16, SEEK_END)                 = 189920
+read(4, "\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 16) = 16
+close(4)                                = 0
+open("/usr/bin/ocamlbrowser", O_RDONLY) = 4
+lseek(4, -16, SEEK_END)                 = 1335596
+read(4, "\0\0\0\7Caml1999X008", 16)     = 16
+lseek(4, -72, SEEK_END)                 = 1335540
+read(4, "CODE\0\21\340<DLPT\0\0\0\0DLLS\0\0\0\35PRIM\0\0\35\256"..., 56) = 56
+mmap(NULL, 2105344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43241f7000
+mmap(NULL, 1024000, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432521e000
+lseek(4, -1335592, SEEK_END)            = 20
+mmap(NULL, 1175552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43240d8000
+read(4, "T\0\0\0\343\3\0\0)\0\0\0*\0\0\0\1\0\0\0\0\0\0\0V\0\0\0\16\0\0\0"..., 1171516) = 1171516
+lseek(4, -164076, SEEK_END)             = 1171536
+read(4, "", 0)                          = 0
+lseek(4, -164076, SEEK_END)             = 1171536
+read(4, "dllunix\0dllcamlstr\0dlllabltk\0", 29) = 29
+lseek(4, -164047, SEEK_END)             = 1171565
+read(4, "caml_abs_float\0caml_acos_float\0c"..., 7598) = 7598
+stat("/usr/lib64/ocaml/ld.conf", {st_mode=S_IFREG|0644, st_size=43, ...}) = 0
+open("/usr/lib64/ocaml/ld.conf", O_RDONLY) = 5
+read(5, "/usr/lib64/ocaml/stublibs\n/usr/l"..., 43) = 43
+close(5)                                = 0
+stat("/home/danny/.opam/system/lib/stublibs/dllunix.so", 0x7fff13bd5780) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/ocaml/stublibs/dllunix.so", {st_mode=S_IFREG|0755, st_size=54744, ...}) = 0
+futex(0x7f4324e380d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib64/ocaml/stublibs/dllunix.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PT\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=54744, ...}) = 0
+mmap(NULL, 2150120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4323ecb000
+mprotect(0x7f4323ed7000, 2097152, PROT_NONE) = 0
+mmap(0x7f43240d7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xc000) = 0x7f43240d7000
+close(5)                                = 0
+stat("/home/danny/.opam/system/lib/stublibs/dllcamlstr.so", 0x7fff13bd5780) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/ocaml/stublibs/dllcamlstr.so", {st_mode=S_IFREG|0755, st_size=10608, ...}) = 0
+open("/usr/lib64/ocaml/stublibs/dllcamlstr.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\t\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=10608, ...}) = 0
+mmap(NULL, 2115040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4323cc6000
+mprotect(0x7f4323cc8000, 2097152, PROT_NONE) = 0
+mmap(0x7f4323ec8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7f4323ec8000
+mmap(0x7f4323ec9000, 5600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4323ec9000
+close(5)                                = 0
+stat("/home/danny/.opam/system/lib/stublibs/dlllabltk.so", 0x7fff13bd5780) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/ocaml/stublibs/dlllabltk.so", {st_mode=S_IFREG|0755, st_size=21728, ...}) = 0
+open("/usr/lib64/ocaml/stublibs/dlllabltk.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20&\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=21728, ...}) = 0
+mmap(NULL, 2117120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4323ac1000
+mprotect(0x7f4323ac6000, 2093056, PROT_NONE) = 0
+mmap(0x7f4323cc5000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7f4323cc5000
+close(5)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=265894, ...}) = 0
+mmap(NULL, 265894, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7f432531c000
+close(5)                                = 0
+open("/usr/lib64/libtk8.6.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240P\3\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0555, st_size=1403784, ...}) = 0
+mmap(NULL, 3500544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f432376a000
+mprotect(0x7f43238a3000, 2093056, PROT_NONE) = 0
+mmap(0x7f4323aa2000, 126976, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x138000) = 0x7f4323aa2000
+close(5)                                = 0
+open("/usr/lib64/libtcl8.6.so", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\262\2\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0555, st_size=1693040, ...}) = 0
+mmap(NULL, 3792000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f43233cc000
+mprotect(0x7f432355a000, 2097152, PROT_NONE) = 0
+mmap(0x7f432375a000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x18e000) = 0x7f432375a000
+mmap(0x7f4323769000, 3200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4323769000
+close(5)                                = 0
+open("/usr/lib64/libX11.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\332\1\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=1285504, ...}) = 0
+mmap(NULL, 3382656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4323092000
+mprotect(0x7f43231c6000, 2097152, PROT_NONE) = 0
+mmap(0x7f43233c6000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x134000) = 0x7f43233c6000
+close(5)                                = 0
+open("/usr/lib64/tls/x86_64/libXft.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/tls/x86_64", 0x7fff13bd4aa0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/tls/libXft.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/tls", 0x7fff13bd4aa0)  = -1 ENOENT (No such file or directory)
+open("/usr/lib64/x86_64/libXft.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/x86_64", 0x7fff13bd4aa0) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libXft.so.2", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200D\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=86064, ...}) = 0
+mmap(NULL, 2181408, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322e7d000
+mprotect(0x7f4322e91000, 2097152, PROT_NONE) = 0
+mmap(0x7f4323091000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x14000) = 0x7f4323091000
+close(5)                                = 0
+open("/usr/lib64/libXss.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\f\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=10928, ...}) = 0
+mmap(NULL, 2106312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322c7a000
+mprotect(0x7f4322c7c000, 2097152, PROT_NONE) = 0
+mmap(0x7f4322e7c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7f4322e7c000
+close(5)                                = 0
+open("/usr/lib64/libXext.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2206\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=70808, ...}) = 0
+mmap(NULL, 2166680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322a69000
+mprotect(0x7f4322a7a000, 2093056, PROT_NONE) = 0
+mmap(0x7f4322c79000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x10000) = 0x7f4322c79000
+close(5)                                = 0
+open("/usr/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340 \0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=86448, ...}) = 0
+mmap(NULL, 2181648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322854000
+mprotect(0x7f4322869000, 2093056, PROT_NONE) = 0
+mmap(0x7f4322a68000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x14000) = 0x7f4322a68000
+close(5)                                = 0
+open("/usr/lib64/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\230\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=120112, ...}) = 0
+mmap(NULL, 2215592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322637000
+mprotect(0x7f4322654000, 2093056, PROT_NONE) = 0
+mmap(0x7f4322853000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1c000) = 0x7f4322853000
+close(5)                                = 0
+open("/usr/lib64/libXau.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=10752, ...}) = 0
+mmap(NULL, 2106128, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4322434000
+mprotect(0x7f4322436000, 2097152, PROT_NONE) = 0
+mmap(0x7f4322636000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7f4322636000
+close(5)                                = 0
+open("/usr/lib64/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\22\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=20152, ...}) = 0
+mmap(NULL, 2115504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f432222f000
+mprotect(0x7f4322234000, 2093056, PROT_NONE) = 0
+mmap(0x7f4322433000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7f4322433000
+close(5)                                = 0
+open("/usr/lib64/libfontconfig.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@j\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=238816, ...}) = 0
+mmap(NULL, 2334672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4321ff5000
+mprotect(0x7f432202e000, 2093056, PROT_NONE) = 0
+mmap(0x7f432222d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x38000) = 0x7f432222d000
+close(5)                                = 0
+open("/usr/lib64/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P=\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=168024, ...}) = 0
+mmap(NULL, 2263304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4321dcc000
+mprotect(0x7f4321df3000, 2093056, PROT_NONE) = 0
+mmap(0x7f4321ff2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x26000) = 0x7f4321ff2000
+close(5)                                = 0
+open("/usr/lib64/libfreetype.so.6", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\316\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=593032, ...}) = 0
+mmap(NULL, 2688312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4321b3b000
+mprotect(0x7f4321bc6000, 2097152, PROT_NONE) = 0
+mmap(0x7f4321dc6000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x8b000) = 0x7f4321dc6000
+close(5)                                = 0
+open("/usr/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\25\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=66560, ...}) = 0
+mmap(NULL, 2161840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f432192b000
+mprotect(0x7f432193a000, 2093056, PROT_NONE) = 0
+mmap(0x7f4321b39000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xe000) = 0x7f4321b39000
+close(5)                                = 0
+open("/usr/lib64/libXrender.so.1", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\33\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=38352, ...}) = 0
+mmap(NULL, 2133752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f4321722000
+mprotect(0x7f432172b000, 2093056, PROT_NONE) = 0
+mmap(0x7f432192a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x8000) = 0x7f432192a000
+close(5)                                = 0
+open("/usr/lib64/libpng14.so.14", O_RDONLY|O_CLOEXEC) = 5
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240A\0\0\0\0\0\0"..., 832) = 832
+fstat(5, {st_mode=S_IFREG|0755, st_size=151600, ...}) = 0
+mmap(NULL, 2246872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f43214fd000
+mprotect(0x7f4321522000, 2093056, PROT_NONE) = 0
+mmap(0x7f4321721000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x24000) = 0x7f4321721000
+close(5)                                = 0
+munmap(0x7f432531c000, 265894)          = 0
+lseek(4, -156449, SEEK_END)             = 1179163
+brk(0x136e000)                          = 0x136e000
+lseek(4, 0, SEEK_CUR)                   = 1179163
+read(4, "\204\225\246\276\0\2I\371\0\0\34Q\0\0\322f\0\0\216\203\10\0P<\0\220-Out_o"..., 65536) = 65536
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4325338000
+read(4, "\1\377\377\30\1\31\1\32\1\377\377\34\1\35\1F\1\377\377\377\377\377\377\377\377\377\377L\1%\1\0"..., 65536) = 65536
+read(4, "wm\220 \220(protocol\220\"wm\220,positionfrom"..., 65536) = 25377
+munmap(0x7f4325338000, 151552)          = 0
+close(4)                                = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+brk(0x138f000)                          = 0x138f000
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432531c000
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_DFL, [], 0}, 8) = 0
+open("/usr/lib64/locale/locale-archive", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2502, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f432521d000
+read(4, "# Locale name alias data base.\n#"..., 4096) = 2502
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f432521d000, 4096)            = 0
+open("/usr/lib64/locale/en_US.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/locale/en_US.utf8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=256356, ...}) = 0
+mmap(NULL, 256356, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f43251df000
+close(4)                                = 0
+open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/gconv/gconv-modules", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=56302, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(4, "# GNU libc iconv configuration.\n"..., 4096) = 4096
+read(4, "lias\tCSISO141JUSIB1002//\tJUS_I.B"..., 4096) = 4096
+read(4, "odule\t\tcost\nalias\tISO-IR-110//\t\t"..., 4096) = 4096
+read(4, "9-14//\nalias\tL8//\t\t\tISO-8859-14/"..., 4096) = 4096
+read(4, "CSEBCDICES//\t\tEBCDIC-ES//\nalias\t"..., 4096) = 4096
+read(4, "IBM284//\nalias\tEBCDIC-CP-ES//\t\tI"..., 4096) = 4096
+read(4, "ias\t864//\t\t\tIBM864//\nalias\tCSIBM"..., 4096) = 4096
+read(4, "lias\tCSIBM939//\t\tIBM939//\nmodule"..., 4096) = 4096
+read(4, "alias\tcsGB2312//\t\tEUC-CN//\nalias"..., 4096) = 4096
+read(4, "//\t\tISO-2022-CN-EXT//\nmodule\tISO"..., 4096) = 4096
+read(4, "st\nalias\tISO-IR-55//\t\tISO_5428//"..., 4096) = 4096
+read(4, "\tARMSCII-8//\t\tARMSCII-8\t1\n\n#\tfro"..., 4096) = 4096
+read(4, "2//\t\tIBM1112\t\t1\n\n#\tfrom\t\t\tto\t\t\tm"..., 4096) = 4096
+brk(0x13b0000)                          = 0x13b0000
+read(4, "module\tIBM9448//\t\tINTERNAL\t\tIBM9"..., 4096) = 3054
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+futex(0x7f43247bca90, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f4320cfc000
+mprotect(0x7f4320cfc000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f43214fbfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f43214fc9d0, tls=0x7f43214fc700, child_tidptr=0x7f43214fc9d0) = 12427
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x139f110, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x139f114, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+brk(0x13d2000)                          = 0x13d2000
+brk(0x13f6000)                          = 0x13f6000
+uname({sys="Linux", node="Hetalia", ...}) = 0
+getuid()                                = 1000
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(6)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 6
+connect(6, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(6)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1083, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(6, "#\n# /etc/nsswitch.conf\n#\n# An ex"..., 4096) = 1083
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=265894, ...}) = 0
+mmap(NULL, 265894, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f432519e000
+close(6)                                = 0
+open("/lib64/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\23\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=46069, ...}) = 0
+mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f4320af2000
+mprotect(0x7f4320afb000, 2093056, PROT_NONE) = 0
+mmap(0x7f4320cfa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x8000) = 0x7f4320cfa000
+close(6)                                = 0
+open("/lib64/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20A\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=115871, ...}) = 0
+mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f43208d8000
+mprotect(0x7f43208ef000, 2093056, PROT_NONE) = 0
+mmap(0x7f4320aee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0x16000) = 0x7f4320aee000
+mmap(0x7f4320af0000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4320af0000
+close(6)                                = 0
+mprotect(0x7f4320aee000, 4096, PROT_READ) = 0
+mprotect(0x7f4320cfa000, 4096, PROT_READ) = 0
+munmap(0x7f432519e000, 265894)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=265894, ...}) = 0
+mmap(NULL, 265894, PROT_READ, MAP_PRIVATE, 6, 0) = 0x7f432519e000
+close(6)                                = 0
+open("/lib64/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P!\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=56124, ...}) = 0
+mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f43206cc000
+mprotect(0x7f43206d7000, 2093056, PROT_NONE) = 0
+mmap(0x7f43208d6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xa000) = 0x7f43208d6000
+close(6)                                = 0
+open("/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 6
+read(6, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340!\0\0\0\0\0\0"..., 832) = 832
+fstat(6, {st_mode=S_IFREG|0755, st_size=61626, ...}) = 0
+mmap(NULL, 2148520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 6, 0) = 0x7f43204bf000
+mprotect(0x7f43204cb000, 2093056, PROT_NONE) = 0
+mmap(0x7f43206ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 6, 0xb000) = 0x7f43206ca000
+close(6)                                = 0
+mprotect(0x7f43206ca000, 4096, PROT_READ) = 0
+mprotect(0x7f43208d6000, 4096, PROT_READ) = 0
+munmap(0x7f432519e000, 265894)          = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 6
+lseek(6, 0, SEEK_CUR)                   = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=1462, ...}) = 0
+mmap(NULL, 1462, PROT_READ, MAP_SHARED, 6, 0) = 0x7f43251de000
+lseek(6, 1462, SEEK_SET)                = 1462
+munmap(0x7f43251de000, 1462)            = 0
+close(6)                                = 0
+brk(0x1419000)                          = 0x1419000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+access("/usr/lib64/tcl8.6/init.tcl", F_OK) = 0
+stat("/usr/lib64/tcl8.6/init.tcl", {st_mode=S_IFREG|0644, st_size=24447, ...}) = 0
+open("/usr/lib64/tcl8.6/init.tcl", O_RDONLY) = 6
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(6, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd5070) = -1 ENOTTY (Inappropriate ioctl for device)
+read(6, "# init.tcl --\n#\n# Default system"..., 4096) = 4096
+read(6, "(os) eq \"Windows NT\"} {\n\t\t    se"..., 4096) = 4096
+read(6, "range $cinfo 0 150]\n\t\t    while "..., 4096) = 4096
+read(6, "space current]\n#                "..., 4096) = 4096
+read(6, " return [list [string range $cmd"..., 4096) = 4096
+read(6, "inue\n\t    }\n\t    set checked($di"..., 4096) = 3967
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+stat("/usr/lib64/tcl8.6/encoding", {st_mode=S_IFDIR|0755, st_size=1740, ...}) = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 6
+connect(6, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+getpeername(6, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+uname({sys="Linux", node="Hetalia", ...}) = 0
+access("/home/danny/.Xauthority", R_OK) = 0
+open("/home/danny/.Xauthority", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0600, st_size=52, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\1\0\0\7Hetalia\0\0010\0\22MIT-MAGIC-COOKIE"..., 4096) = 52
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+getsockname(6, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+brk(0x143c000)                          = 0x143c000
+fcntl(6, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(6, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"l\0\v\0\0\0\22\0\20\0\0\0", 12}, {"", 0}, {"MIT-MAGIC-COOKIE-1", 18}, {"\0\0", 2}, {"\352\343\10\337\221\6\16\331w\f\\\334\0347\351-", 16}, {"", 0}], 6) = 48
+recvfrom(6, 0x1401ec0, 8, 0, 0, 0)      = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\v\0\0\0\253\0", 8, 0, NULL, NULL) = 8
+recvfrom(6, "\370\376\255\0\0\0\200\3\377\377\37\0\0\1\0\0\24\0\377\377\1\7\0\0  \10\377\0\0\0\0"..., 684, 0, NULL, NULL) = 684
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"b\0\5\0\f\0\0\0BIG-REQUESTS", 20}], 1) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\1\0\0\0\0\0\1\205\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\205\0\1\0", 4}], 1)       = 4
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\2\0\0\0\0\0\377\377?\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\0\5\0\0\0\200\3\243\0\0\0\10\0\0\0\377\377\377\0\24\0\6\0\243\0\0\0\27\0\0\0"..., 44}, {NULL, 0}, {"", 0}], 3) = 44
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\10\4\0\221\0\0\0\37\0\0\0\0\0\0\0B\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 612
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"b\0\5\0\t\0\200\3", 8}, {"XKEYBOARD", 9}, {"\0\0\0", 3}], 3) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\5\0\0\0\0\0\1\207U\211\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\207\0\2\0\1\0\0\0", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\1\6\0\0\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=81659, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThi"..., 4096) = 4096
+read(7, "\tbo_IN.UTF-8\nbr\t\t\t\t\t\tbr_FR.ISO88"..., 4096) = 4096
+read(7, "de_DE.88591\t\t\t\t\tde_DE.ISO8859-1\n"..., 4096) = 4096
+read(7, "8\t\t\t\t\tes_ES.UTF-8\nes_AR\t\t\t\t\t\tes_"..., 4096) = 4096
+read(7, "-1\nfi_FI.ISO-8859-1\t\t\t\tfi_FI.ISO"..., 4096) = 4096
+read(7, "\t\t\t\thi_IN.ISCII-DEV\nhi_IN\t\t\t\t\t\th"..., 4096) = 4096
+read(7, "\t\t\tlt_LT.ISO8859-13\nlt_LT.iso885"..., 4096) = 4096
+read(7, "O8859-1\npd_US.iso88591\t\t\t\t\tpd_US"..., 4096) = 4096
+read(7, ".iso88591\t\t\t\tss_ZA.ISO8859-1\nss_"..., 4096) = 4096
+read(7, "SCS\t\t\t\tzh_HK.big5hkscs\nzh_HK.BIG"..., 4096) = 4096
+read(7, "A.ISO-8859-1:\t\t\t\taf_ZA.ISO8859-1"..., 4096) = 4096
+read(7, "AD@euro:\t\t\t\t\tca_AD.ISO8859-15\nca"..., 4096) = 4096
+read(7, "-1\nde_LU@euro:\t\t\t\t\tde_LU.ISO8859"..., 4096) = 4096
+read(7, "9-1\nes_CL.utf8:\t\t\t\t\tes_CL.UTF-8\n"..., 4096) = 4096
+read(7, "I.UTF-8\nfi_FI.UTF-8@euro:\t\t\t\tfi_"..., 4096) = 4096
+read(7, "\t\thi_IN.UTF-8\nHI_IN.UTF-8:\t\t\t\t\th"..., 4096) = 4096
+read(7, "\t\t\t\t\tlt_LT.ISO8859-13\nlt_LT.iso8"..., 4096) = 4096
+read(7, "K.utf8:\t\t\t\t\tpa_PK.UTF-8\npd:\t\t\t\t\t"..., 4096) = 4096
+read(7, "in\nsr_RS@latin:\t\t\t\tsr_RS.UTF-8@l"..., 4096) = 4096
+read(7, "N.GBK:\t\t\t\t\tzh_CN.gbk\nzh_CN.GB180"..., 4096) = 3835
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+open("/usr/share/X11/locale/locale.alias", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=81659, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThi"..., 4096) = 4096
+read(7, "\tbo_IN.UTF-8\nbr\t\t\t\t\t\tbr_FR.ISO88"..., 4096) = 4096
+read(7, "de_DE.88591\t\t\t\t\tde_DE.ISO8859-1\n"..., 4096) = 4096
+read(7, "8\t\t\t\t\tes_ES.UTF-8\nes_AR\t\t\t\t\t\tes_"..., 4096) = 4096
+read(7, "-1\nfi_FI.ISO-8859-1\t\t\t\tfi_FI.ISO"..., 4096) = 4096
+read(7, "\t\t\t\thi_IN.ISCII-DEV\nhi_IN\t\t\t\t\t\th"..., 4096) = 4096
+read(7, "\t\t\tlt_LT.ISO8859-13\nlt_LT.iso885"..., 4096) = 4096
+read(7, "O8859-1\npd_US.iso88591\t\t\t\t\tpd_US"..., 4096) = 4096
+read(7, ".iso88591\t\t\t\tss_ZA.ISO8859-1\nss_"..., 4096) = 4096
+read(7, "SCS\t\t\t\tzh_HK.big5hkscs\nzh_HK.BIG"..., 4096) = 4096
+read(7, "A.ISO-8859-1:\t\t\t\taf_ZA.ISO8859-1"..., 4096) = 4096
+read(7, "AD@euro:\t\t\t\t\tca_AD.ISO8859-15\nca"..., 4096) = 4096
+read(7, "-1\nde_LU@euro:\t\t\t\t\tde_LU.ISO8859"..., 4096) = 4096
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+open("/usr/share/X11/locale/locale.dir", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=36901, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThi"..., 4096) = 4096
+read(7, "-1\niso8859-1/XLC_LOCALE\t\t\tes_PA."..., 4096) = 4096
+read(7, "iso8859-2/XLC_LOCALE\t\t\tpl_PL.ISO"..., 4096) = 4096
+read(7, "\t\ten_BE.UTF-8\nen_US.UTF-8/XLC_LO"..., 4096) = 4096
+read(7, "LOCALE\t\t\tro_RO.UTF-8\nru_RU.UTF-8"..., 4096) = 4096
+read(7, "9-15/XLC_LOCALE:\t\t\tde_DE.ISO8859"..., 4096) = 4096
+read(7, "_ID.ISO8859-1\niso8859-1/XLC_LOCA"..., 4096) = 4096
+read(7, ".gbk\nzh_CN.gb18030/XLC_LOCALE:\t\t"..., 4096) = 4096
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+access("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", R_OK) = 0
+open("/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=4231, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#  XLoc"..., 4096) = 4096
+read(7, "\t{\n\tside\t\tGR\n\tlength\t\t1\n\tct_enco"..., 4096) = 135
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+open("/usr/share/X11/locale/compose.dir", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=32749, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThi"..., 4096) = 4096
+read(7, "8859-15/Compose\t\tes_UY.ISO8859-1"..., 4096) = 4096
+read(7, "\niso8859-1/Compose\t\tst_ZA.ISO885"..., 4096) = 4096
+read(7, "\nen_US.UTF-8/Compose\t\tes_VE.UTF-"..., 4096) = 4096
+read(7, "e:\t\tar_AA.ISO8859-6\niso8859-6/Co"..., 4096) = 4096
+read(7, "_EE.ISO8859-1\niso8859-4/Compose:"..., 4096) = 4096
+read(7, "se:\t\tst_ZA.ISO8859-1\niso8859-1/C"..., 4096) = 4096
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+access("/usr/share/X11/locale/en_US.UTF-8/Compose", R_OK) = 0
+open("/usr/share/X11/locale/en_US.UTF-8/Compose", O_RDONLY) = 7
+close(7)                                = 0
+geteuid()                               = 1000
+getegid()                               = 100
+open("/home/danny/.XCompose", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/X11/locale/compose.dir", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=32749, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\n#\tThi"..., 4096) = 4096
+read(7, "8859-15/Compose\t\tes_UY.ISO8859-1"..., 4096) = 4096
+read(7, "\niso8859-1/Compose\t\tst_ZA.ISO885"..., 4096) = 4096
+read(7, "\nen_US.UTF-8/Compose\t\tes_VE.UTF-"..., 4096) = 4096
+read(7, "e:\t\tar_AA.ISO8859-6\niso8859-6/Co"..., 4096) = 4096
+read(7, "_EE.ISO8859-1\niso8859-4/Compose:"..., 4096) = 4096
+read(7, "se:\t\tst_ZA.ISO8859-1\niso8859-1/C"..., 4096) = 4096
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+access("/usr/share/X11/locale/en_US.UTF-8/Compose", R_OK) = 0
+getuid()                                = 1000
+getgid()                                = 100
+stat("/usr/share/X11/locale/en_US.UTF-8/Compose", {st_mode=S_IFREG|0644, st_size=563189, ...}) = 0
+stat("/var/cache/libx11/compose/", 0x7fff13bd4dc0) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+getgid()                                = 100
+stat("/usr/share/X11/locale/en_US.UTF-8/Compose", {st_mode=S_IFREG|0644, st_size=563189, ...}) = 0
+stat("/home/danny/.compose-cache/", 0x7fff13bd4dc0) = -1 ENOENT (No such file or directory)
+open("/usr/share/X11/locale/en_US.UTF-8/Compose", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=563189, ...}) = 0
+mmap(NULL, 565248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4320435000
+fstat(7, {st_mode=S_IFREG|0644, st_size=563189, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43251de000
+read(7, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# UTF-8"..., 4096) = 4096
+open("/usr/share/X11/XKeysymDB", O_RDONLY) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=8881, ...}) = 0
+read(8, "! Copyright 1993 Massachusetts I"..., 8881) = 8881
+close(8)                                = 0
+read(7, "sciicircum> \t: \"|\"   bar # VERTI"..., 4096) = 4096
+read(7, "\"\302\260\"   degree # DEGREE SIGN\n\n# Q"..., 4096) = 4096
+read(7, "en # YEN SIGN\n<Multi_key> <y> <e"..., 4096) = 4096
+read(7, "> <U1103> \t: \"\341\204\225\"   U1115 # HAN"..., 4096) = 4096
+brk(0x1460000)                          = 0x1460000
+read(7, "65> <U1175> \t: \"\341\205\246\"   U1166 # H"..., 4096) = 4096
+read(7, "# HANGUL JONGSEONG RIEUL-THIEUTH"..., 4096) = 4096
+read(7, " U1134 # HANGUL CHOSEONG SIOS-SS"..., 4096) = 4096
+read(7, "m> <KP_3> \t: \"\302\263\"   threesuperio"..., 4096) = 4096
+read(7, "E> <grave> \t\t: \"\303\210\"   Egrave # L"..., 4096) = 4096
+read(7, "d_acute> <O>                 \t: "..., 4096) = 4096
+read(7, "N\n<dead_grave> <a>              "..., 4096) = 4096
+read(7, "N SMALL LETTER E WITH DIAERESIS\n"..., 4096) = 4096
+read(7, " # LATIN SMALL LETTER O WITH DIA"..., 4096) = 4096
+read(7, "WITH MACRON\n<dead_breve> <A>    "..., 4096) = 4096
+read(7, "less> \t\t\t: \"\304\217\"   U010F # LATIN "..., 4096) = 4096
+read(7, " CAPITAL LETTER G WITH CIRCUMFLE"..., 4096) = 4096
+read(7, "012A # LATIN CAPITAL LETTER I WI"..., 4096) = 4096
+read(7, "LL LETTER L WITH ACUTE\n<Multi_ke"..., 4096) = 4096
+read(7, "> <n> \t\t\t: \"\305\210\"   U0148 # LATIN "..., 4096) = 4096
+read(7, " \t\t\t: \"\305\231\"   U0159 # LATIN SMALL"..., 4096) = 4096
+read(7, "166 # LATIN CAPITAL LETTER T WIT"..., 4096) = 4096
+read(7, " \t: \"\305\263\"   U0173 # LATIN SMALL L"..., 4096) = 4096
+read(7, "key> <KP_Divide> <I>      \t: \"\306\227"..., 4096) = 4096
+read(7, "> \t: \"\307\226\"   U01D6 # LATIN SMALL "..., 4096) = 4096
+read(7, "       \t: \"\307\234\"   U01DC # LATIN S"..., 4096) = 4096
+read(7, "underscore> <dead_abovedot> <a> "..., 4096) = 4096
+read(7, " CARON\n<Multi_key> <c> <EZH>    "..., 4096) = 4096
+read(7, "e> <Multi_key> <KP_Divide> <O> \t"..., 4096) = 4096
+read(7, "TH CARON\n<Multi_key> <c> <h>    "..., 4096) = 4096
+read(7, "\310\255\"   U022D # LATIN SMALL LETTER"..., 4096) = 4096
+read(7, " HOOK\n<dead_circumflex> <Multi_k"..., 4096) = 4096
+read(7, "erbar> <x> \t: \"\313\243\"   U02E3 # MOD"..., 4096) = 4096
+read(7, "is> \t: \"\316\220\"   U0390 # GREEK SMAL"..., 4096) = 4096
+read(7, "uotedbl> <Greek_upsilon> \t: \"\316\260\""..., 4096) = 4096
+read(7, " <grave> <Cyrillic_ie> \t: \"\321\220\"  "..., 4096) = 4096
+brk(0x149b000)                          = 0x149b000
+read(7, "D6 # CYRILLIC CAPITAL LETTER IE "..., 4096) = 4096
+read(7, "> <underscore> <Cyrillic_u> \t: \""..., 4096) = 4096
+read(7, " ORIYA LETTER RHA\n<Multi_key> <U"..., 4096) = 4096
+read(7, " AND ACUTE\n<dead_acute> <dead_ce"..., 4096) = 4096
+read(7, "<dead_grave> <dead_macron> <E>  "..., 4096) = 4096
+read(7, "BELOW\n<dead_belowtilde> <e>     "..., 4096) = 4096
+read(7, " H WITH DOT BELOW\n<Multi_key> <e"..., 4096) = 4096
+read(7, "H DOT BELOW\n<dead_belowdot> <k> "..., 4096) = 4096
+read(7, "TER M WITH DOT BELOW\n<Multi_key>"..., 4096) = 4096
+read(7, "E AND DIAERESIS\n<dead_diaeresis>"..., 4096) = 4096
+read(7, "ITH MACRON AND ACUTE\n<Multi_key>"..., 4096) = 4096
+read(7, "BOVE\n<Multi_key> <period> <S>   "..., 4096) = 4096
+read(7, "3>      \t: \"\341\271\251\"   U1E69 # LATIN"..., 4096) = 4096
+read(7, "ostrophe> <dead_tilde> <u> \t: \"\341"..., 4096) = 4096
+read(7, " LATIN SMALL LETTER W WITH DOT A"..., 4096) = 4096
+read(7, "<Multi_key> <apostrophe> <Acircu"..., 4096) = 4096
+read(7, "rcumflex> <a> \t: \"\341\272\251\"   U1EA9 #"..., 4096) = 4096
+read(7, "    \t: \"\341\272\257\"   U1EAF # LATIN SMA"..., 4096) = 4096
+read(7, "reve> <A> \t: \"\341\272\264\"   U1EB4 # LAT"..., 4096) = 4096
+read(7, "e> <Ecircumflex> \t: \"\341\272\276\"   U1EB"..., 4096) = 4096
+read(7, "   U1EC3 # LATIN SMALL LETTER E "..., 4096) = 4096
+read(7, "CE # LATIN CAPITAL LETTER O WITH"..., 4096) = 4096
+read(7, " LATIN CAPITAL LETTER O WITH CIR"..., 4096) = 4096
+read(7, "<acute> <dead_horn> <O> \t: \"\341\273\232\""..., 4096) = 4096
+read(7, "IN CAPITAL LETTER O WITH HORN AN"..., 4096) = 4096
+read(7, "8 # LATIN CAPITAL LETTER U WITH "..., 4096) = 4096
+read(7, "lti_key> <asciitilde> <Uhorn> \t:"..., 4096) = 4096
+read(7, "HA WITH PSILI\n<dead_dasia> <Gree"..., 4096) = 4096
+read(7, " U1F07 # GREEK SMALL LETTER ALPH"..., 4096) = 4096
+read(7, "APITAL LETTER ALPHA WITH DASIA A"..., 4096) = 4096
+read(7, "\n<Multi_key> <apostrophe> <paren"..., 4096) = 4096
+read(7, "LON WITH DASIA AND OXIA\n<dead_ac"..., 4096) = 4096
+read(7, "a> \t: \"\341\274\245\"   U1F25 # GREEK SMAL"..., 4096) = 4096
+read(7, "PITAL LETTER ETA WITH DASIA AND "..., 4096) = 4096
+read(7, "L LETTER IOTA WITH PSILI AND OXI"..., 4096) = 4096
+read(7, "> <Greek_IOTA> \t: \"\341\274\273\"   U1F3B "..., 4096) = 4096
+read(7, " <U1F40>         \t: \"\341\275\202\"   U1F4"..., 4096) = 4096
+read(7, "ve> <dead_psili> <Greek_OMICRON>"..., 4096) = 4096
+read(7, "H DASIA AND VARIA\n<dead_grave> <"..., 4096) = 4096
+read(7, "REEK CAPITAL LETTER UPSILON WITH"..., 4096) = 4096
+read(7, "1F64 # GREEK SMALL LETTER OMEGA "..., 4096) = 4096
+read(7, ": \"\341\275\252\"   U1F6A # GREEK CAPITAL "..., 4096) = 4096
+read(7, " # GREEK SMALL LETTER ALPHA WITH"..., 4096) = 4096
+read(7, "U1F82 # GREEK SMALL LETTER ALPHA"..., 4096) = 4096
+read(7, "<Greek_alpha> \t: \"\341\276\204\"   U1F84 #"..., 4096) = 4096
+read(7, "WITH PSILI AND PERISPOMENI AND Y"..., 4096) = 4096
+read(7, "> <U1F09>          \t: \"\341\276\211\"   U1"..., 4096) = 4096
+read(7, "ta> <dead_grave> <parenleft> <Gr"..., 4096) = 4096
+read(7, "F8D # GREEK CAPITAL LETTER ALPHA"..., 4096) = 4096
+read(7, "I\n<dead_iota> <dead_tilde> <U1F0"..., 4096) = 4096
+read(7, "RAMMENI\n<dead_iota> <Multi_key> "..., 4096) = 4096
+read(7, "\"   U1F94 # GREEK SMALL LETTER E"..., 4096) = 4096
+read(7, "0> \t: \"\341\276\226\"   U1F96 # GREEK SMAL"..., 4096) = 4096
+read(7, "TA> \t: \"\341\276\230\"   U1F98 # GREEK CAP"..., 4096) = 4096
+read(7, "Greek_ETA> \t: \"\341\276\233\"   U1F9B # GR"..., 4096) = 4096
+mmap(NULL, 315392, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4325191000
+read(7, "phe> <U1F29> \t: \"\341\276\235\"   U1F9D # "..., 4096) = 4096
+read(7, "ER ETA WITH DASIA AND PERISPOMEN"..., 4096) = 4096
+read(7, " <Greek_omega> \t: \"\341\276\242\"   U1FA2 "..., 4096) = 4096
+read(7, "ey> <acute> <parenright> <Greek_"..., 4096) = 4096
+read(7, "ti_key> <Greek_iota> <U1F66> \t: "..., 4096) = 4096
+read(7, "\276\250\"   U1FA8 # GREEK CAPITAL LETT"..., 4096) = 4096
+read(7, "NI\n<dead_iota> <Multi_key> <grav"..., 4096) = 4096
+read(7, "ND PROSGEGRAMMENI\n<dead_iota> <M"..., 4096) = 4096
+read(7, "TAL LETTER OMEGA WITH PSILI AND "..., 4096) = 4096
+read(7, " AND YPOGEGRAMMENI\n<dead_iota> <"..., 4096) = 4096
+read(7, "ek_iota> <acute> <Greek_eta> \t: "..., 4096) = 4096
+read(7, "sis> <Greek_iota> \t: \"\341\277\227\"   U1F"..., 4096) = 4096
+read(7, "LETTER UPSILON WITH VRACHY\n<Mult"..., 4096) = 4096
+read(7, "\"   U1FFA # GREEK CAPITAL LETTER"..., 4096) = 4096
+read(7, "RIPT ZERO\n<Multi_key> <underscor"..., 4096) = 4096
+read(7, "<m> \t: \"\342\204\240\"   U2120 # SERVICE M"..., 4096) = 4096
+read(7, "EITHER LESS-THAN NOR EQUIVALENT "..., 4096) = 4096
+read(7, " \"\342\221\253\"   U246B # CIRCLED NUMBER "..., 4096) = 4096
+read(7, "4BB # CIRCLED LATIN CAPITAL LETT"..., 4096) = 4096
+read(7, "arenleft> <z> <parenright> \t: \"\342"..., 4096) = 4096
+read(7, "I> \t: \"\343\203\224\"   U30D4 # KATAKANA L"..., 4096) = 4096
+read(7, "TY TWO\n<Multi_key> <parenleft> <"..., 4096) = 4096
+read(7, "nright> \t: \"\343\211\231\"   U3259 # CIRCL"..., 4096) = 4096
+read(7, "renleft> <U1112> <parenright> \t:"..., 4096) = 4096
+read(7, "ght> \t: \"\343\212\236\"   U329E # CIRCLED "..., 4096) = 4096
+read(7, "P_2> <parenright> \t: \"\343\212\267\"   U32"..., 4096) = 4096
+read(7, "ft> <kana_KO> <parenright> \t: \"\343"..., 4096) = 4096
+read(7, "\"\357\254\257\"   UFB2F # HEBREW LETTER AL"..., 4096) = 4096
+read(7, " MUSICAL SYMBOL FUSA BLACK\n\n\n#\n#"..., 4096) = 4096
+read(7, "vensubscript      # SUBSCRIPT SE"..., 4096) = 4096
+read(7, "  ocircumflexgrave    # LATIN SM"..., 4096) = 4096
+read(7, "cy> <u> \t\t      : \"\345\205\203\"   U5143 "..., 4096) = 4096
+read(7, ">            : \"\316\274\"   U03BC    #"..., 4096) = 4096
+read(7, " LATIN SMALL LETTER R WITH LONG "..., 4096) = 4096
+read(7, "PITAL LETTER O WITH MACRON AND A"..., 4096) = 4096
+read(7, "aeresis> \t      : \"\341\271\216\"   U1E4E "..., 4096) = 4096
+read(7, "\n<dead_horn> <dead_acute> <O>  \t"..., 4096) = 4096
+read(7, "\263\"   abrevehook          # LATIN"..., 4096) = 4096
+read(7, " ohorngrave          # LATIN SMA"..., 4096) = 4096
+read(7, "\314\201\"\t\t# CYRILLIC SMALL LETTER A W"..., 4096) = 4096
+mremap(0x7f4325191000, 315392, 475136, MREMAP_MAYMOVE) = 0x7f43203c1000
+read(7, "R IE WITH COMBINING MACRON\n\n<dea"..., 4096) = 4096
+read(7, " O WITH COMBINING MACRON\n<Multi_"..., 4096) = 4096
+read(7, "TAL LETTER ER WITH COMBINING INV"..., 4096) = 4096
+read(7, "\"\342\214\266\"   U2336   # \342\212\245 \342\212\244 APL FU"..., 4096) = 4096
+read(7, " \\ APL FUNCTIONAL SYMBOL CIRCLE "..., 4096) = 4096
+read(7, "                : \"\342\215\232\"   U235a "..., 4096) = 4096
+read(7, " <semicolon> <O> for \307\254 and\n# <u"..., 4096) = 2037
+read(7, "", 4096)                       = 0
+munmap(0x7f4320435000, 565248)          = 0
+close(7)                                = 0
+munmap(0x7f43251de000, 4096)            = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\1\30\f\0\1\0\200\3\243\0\0\0\0\0\0\0\1\0\1\0\0\0\1\0!\0\0\0\20*\0\0"..., 60}, {NULL, 0}, {"", 0}], 3) = 60
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\10\0\0\0\0\0\314\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\6\0\16\0\200\3InterpRegistry\1\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\t\0\0\0\0\0\315\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\6\0\16\0\200\3TK_APPLICATION\1\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\n\0\0\0\0\0\316\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"$\0\1\0\24\0\6\0\243\0\0\0\315\2\0\0\37\0\0\0\0\0\0\0\240\206\1\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\10\f\0\6\0\0\0\37\0\0\0\0\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 56
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\24\0\6\0\1\0@\1\316\2\0\0\37\0\0\0\0\0\0\0\240\206\1\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\10\r\0\3\0\0\0\37\0\0\0\0\0\0\0\f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 44
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\22\0\243\0\0\0\315\2\0\0\37\0\0\0\10\0\0\0-\0\0\0003800001 "..., 76}, {NULL, 0}, {"", 0}], 3) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+uname({sys="Linux", node="Hetalia", ...}) = 0
+getuid()                                = 1000
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 7
+lseek(7, 0, SEEK_CUR)                   = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1462, ...}) = 0
+mmap(NULL, 1462, PROT_READ, MAP_SHARED, 7, 0) = 0x7f43251de000
+lseek(7, 1462, SEEK_SET)                = 1462
+munmap(0x7f43251de000, 1462)            = 0
+close(7)                                = 0
+brk(0x14be000)                          = 0x14be000
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\v\0\1\0\200\3\316\2\0\0\37\0\0\0\10\0\0\0\21\0\0\0{OCamlBr"..., 68}, {NULL, 0}, {"", 0}], 3) = 68
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0\20\0\1\0\200\3\316\2\0\0s\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 644
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"T\0\4\0 \0\0\0\331\331\331\331\331\331\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\22\0\0\0\0\0\331\331\331\331\331\331\0\0\331\331\331\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\0\5\0\2\0\200\3\243\0\0\0\4\0\0\0\331\331\331\0T\0\4\0 \0\0\0\0\0\0\0"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\24\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+brk(0x14e3000)                          = 0x14e3000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+open("/usr/lib/tclIndex", O_RDONLY)     = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+open("/usr/lib64/tclIndex", O_RDONLY)   = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+open("/usr/lib64/tcl8.6/tclIndex", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4e70) = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+read(7, "# Tcl autoload index file, versi"..., 4096) = 4096
+read(7, "liasLoad) [list source [file joi"..., 4096) = 1319
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+stat("/usr/lib64/tcl8.6/auto.tcl", {st_mode=S_IFREG|0644, st_size=21317, ...}) = 0
+open("/usr/lib64/tcl8.6/auto.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# auto.tcl --\n#\n# utility procs "..., 4096) = 4096
+read(7, "\t    lappend dirs [file join [fi"..., 4096) = 4096
+read(7, "t name is the name of a command "..., 4096) = 4096
+read(7, " [list _%@namespace forget $name"..., 4096) = 4096
+read(7, "s:\n# name -\t\tName that is being "..., 4096) = 4096
+read(7, "}\n        }\n\tensemble {\n\t    var"..., 4096) = 837
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/lib", {st_mode=S_IFDIR|0755, st_size=3562, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+lstat("/usr/lib64/tcl8.6/tk8.6", 0x7fff13bd3c50) = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8.6/tk8.6/tk.tcl", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+access("/usr/lib64/tk8.6/tk.tcl", F_OK) = 0
+stat("/usr/lib64/tk8.6/tk.tcl", {st_mode=S_IFREG|0644, st_size=23216, ...}) = 0
+open("/usr/lib64/tk8.6/tk.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# tk.tcl --\n#\n# Initialization s"..., 4096) = 4096
+read(7, "nfo vrootx $w]+[winfo vrootwidth"..., 4096) = 4096
+read(7, "::tk::Priv\n    global tcl_platfo"..., 4096) = 4096
+read(7, " other X servers may differ.\n\n\te"..., 4096) = 4096
+brk(0x1509000)                          = 0x1509000
+read(7, "NextWord>>\t\t<Option-Right>\n\teven"..., 4096) = 4096
+read(7, "  lappend options -text $newtext"..., 4096) = 2736
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+stat("/usr/lib64/tcl8.6/tm.tcl", {st_mode=S_IFREG|0644, st_size=11626, ...}) = 0
+open("/usr/lib64/tcl8.6/tm.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4a20) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# -*- tcl -*-\n#\n# Searching for "..., 4096) = 4096
+read(7, "rch -glob $newpaths ${p}/*]\n\t# C"..., 4096) = 4096
+read(7, "all units of\n\t\t\t# code claiming "..., 4096) = 3434
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=85070, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+lstat("/usr/lib/tcl8", 0x7fff13bd3980)  = -1 ENOENT (No such file or directory)
+access("/usr", F_OK)                    = 0
+access("/usr/lib", F_OK)                = 0
+access("/usr/lib/tcl8", F_OK)           = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=54940, ...}) = 0
+access("/usr/lib/tcl8/site-tcl", F_OK)  = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.0", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.1", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.2", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.3", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.4", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.5", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib/tcl8/8.6", F_OK)       = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/site-tcl", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/8.0", F_OK)     = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/8.1", F_OK)     = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/8.2", F_OK)     = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/8.3", F_OK)     = -1 ENOENT (No such file or directory)
+access("/usr/lib64/tcl8/8.4", F_OK)     = 0
+access("/usr/lib64/tcl8/8.4", F_OK)     = 0
+stat("/usr/lib64/tcl8/8.4/", {st_mode=S_IFDIR|0755, st_size=52, ...}) = 0
+openat(AT_FDCWD, "/usr/lib64/tcl8/8.4/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 4 entries */, 32768)     = 120
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f43202c0000
+access("/usr/lib64/tcl8/8.5", F_OK)     = 0
+access("/usr/lib64/tcl8/8.5", F_OK)     = 0
+stat("/usr/lib64/tcl8/8.5/", {st_mode=S_IFDIR|0755, st_size=62, ...}) = 0
+openat(AT_FDCWD, "/usr/lib64/tcl8/8.5/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+brk(0x152d000)                          = 0x152d000
+getdents(7, /* 4 entries */, 32768)     = 128
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+access("/usr/lib64/tcl8/8.6", F_OK)     = 0
+access("/usr/lib64/tcl8/8.6", F_OK)     = 0
+stat("/usr/lib64/tcl8/8.6/", {st_mode=S_IFDIR|0755, st_size=34, ...}) = 0
+openat(AT_FDCWD, "/usr/lib64/tcl8/8.6/", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 4 entries */, 32768)     = 112
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8", {st_mode=S_IFDIR|0755, st_size=18, ...}) = 0
+lstat("/usr/lib64/tcl8/8.5", {st_mode=S_IFDIR|0755, st_size=62, ...}) = 0
+stat("/usr/lib64/tcl8/8.5/msgcat-1.5.2.tm", {st_mode=S_IFREG|0644, st_size=16406, ...}) = 0
+open("/usr/lib64/tcl8/8.5/msgcat-1.5.2.tm", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4a20) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# msgcat.tcl --\n#\n#\tThis file de"..., 4096) = 4096
+read(7, "55 my 0455 my_MM\n\t    56 gl 0456"..., 4096) = 4096
+read(7, "FileLocale $nestedFileLocale\n   "..., 4096) = 4096
+read(7, "rritory][.$codeset][@modifier]\n "..., 4096) = 4096
+read(7, "cale C\n}\nmsgcat::Init\n", 4096) = 22
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+brk(0x154e000)                          = 0x154e000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/msgs", {st_mode=S_IFDIR|0755, st_size=198, ...}) = 0
+access("/usr/lib64/tk8.6/msgs/en_us.msg", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/msgs", {st_mode=S_IFDIR|0755, st_size=198, ...}) = 0
+access("/usr/lib64/tk8.6/msgs/en.msg", F_OK) = 0
+stat("/usr/lib64/tk8.6/msgs/en.msg", {st_mode=S_IFREG|0644, st_size=3286, ...}) = 0
+open("/usr/lib64/tk8.6/msgs/en.msg", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "namespace eval ::tk {\n    ::msgc"..., 4096) = 3286
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/msgs", {st_mode=S_IFDIR|0755, st_size=198, ...}) = 0
+access("/usr/lib64/tk8.6/msgs/ROOT.msg", F_OK) = -1 ENOENT (No such file or directory)
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/icons.tcl", {st_mode=S_IFREG|0644, st_size=10883, ...}) = 0
+open("/usr/lib64/tk8.6/icons.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# icons.tcl --\n#\n#\tA set of stoc"..., 4096) = 4096
+read(7, "uygbMhgAQ4DjUhxFvL/5z15X1jeLUayn"..., 4096) = 4096
+read(7, "   1YzK4gIQjuN/nfyEEx9fIjgaYXAkh"..., 4096) = 2691
+brk(0x1572000)                          = 0x1572000
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/button.tcl", {st_mode=S_IFREG|0644, st_size=20200, ...}) = 0
+open("/usr/lib64/tk8.6/button.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# button.tcl --\n#\n# This file de"..., 4096) = 4096
+read(7, "f too.\n#\n# Arguments:\n# w -\t\tThe"..., 4096) = 4096
+read(7, "s the button we're in and change"..., 4096) = 4096
+read(7, "q $w} {\n\t    $w configure -state"..., 4096) = 4096
+read(7, "get is invoked\n# through the key"..., 4096) = 3816
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/entry.tcl", {st_mode=S_IFREG|0644, st_size=16779, ...}) = 0
+open("/usr/lib64/tk8.6/entry.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# entry.tcl --\n#\n# This file def"..., 4096) = 4096
+read(7, ":EntrySeeInsert %W\n}\nbind Entry "..., 4096) = 4096
+read(7, "lection from insert\n    if {\"dis"..., 4096) = 4096
+read(7, "he middle of the window.\n#\n# Arg"..., 4096) = 4096
+read(7, "pect to the -show option.\n#\n# Ar"..., 4096) = 395
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/listbox.tcl", {st_mode=S_IFREG|0644, st_size=14377, ...}) = 0
+open("/usr/lib64/tk8.6/listbox.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# listbox.tcl --\n#\n# This file d"..., 4096) = 4096
+read(7, "%W [%W index active]\n}\nbind List"..., 4096) = 4096
+read(7, "    while {($i > $el) && ($i > $"..., 4096) = 4096
+read(7, "ate [expr {$active + $amount}]\n "..., 4096) = 2089
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/menu.tcl", {st_mode=S_IFREG|0644, st_size=37893, ...}) = 0
+open("/usr/lib64/tk8.6/menu.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# menu.tcl --\n#\n# This file defi"..., 4096) = 4096
+read(7, "MbMotion %W up %X %Y\n}\nbind Menu"..., 4096) = 4096
+brk(0x1594000)                          = 0x1594000
+read(7, "  $w configure -cursor arrow\n   "..., 4096) = 4096
+read(7, "cus away when\n    # the menu is "..., 4096) = 4096
+read(7, "he x position of the mouse.\n# y "..., 4096) = 4096
+read(7, "proc ::tk::MenuInvoke {w buttonR"..., 4096) = 4096
+read(7, "class $m2] eq \"Menu\" && [$m2 cge"..., 4096) = 4096
+read(7, "if {[$child cget -state] ne \"dis"..., 4096) = 4096
+read(7, "{$cascade ne \"\"} {\n\t\t    $menu p"..., 4096) = 4096
+read(7, "\n    variable ::tk::Priv\n\n    if"..., 4096) = 1029
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/panedwindow.tcl", {st_mode=S_IFREG|0644, st_size=5176, ...}) = 0
+open("/usr/lib64/tk8.6/panedwindow.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# panedwindow.tcl --\n#\n# This fi"..., 4096) = 4096
+read(7, "the child does receive an Enter "..., 4096) = 1080
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/scale.tcl", {st_mode=S_IFREG|0644, st_size=7639, ...}) = 0
+open("/usr/lib64/tk8.6/scale.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# scale.tcl --\n#\n# This file def"..., 4096) = 4096
+read(7, "ure -sliderrelief sunken }\n     "..., 4096) = 3543
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/scrlbar.tcl", {st_mode=S_IFREG|0644, st_size=12434, ...}) = 0
+open("/usr/lib64/tk8.6/scrlbar.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# scrlbar.tcl --\n#\n# This file d"..., 4096) = 4096
+read(7, "h 5}\n    }\n}\n# tk::ScrollButtonD"..., 4096) = 4096
+read(7, "k::ScrollEndDrag --\n# This proce"..., 4096) = 4096
+read(7, "we start the\n    # slider drag.\n"..., 4096) = 146
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/spinbox.tcl", {st_mode=S_IFREG|0644, st_size=14821, ...}) = 0
+open("/usr/lib64/tk8.6/spinbox.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# spinbox.tcl --\n#\n# This file d"..., 4096) = 4096
+read(7, "k::EntryPreviousWord %W insert]\n"..., 4096) = 4096
+read(7, "-\t\tThe spinbox window.\n# x -\t\tX-"..., 4096) = 4096
+brk(0x15b6000)                          = 0x15b6000
+read(7, "ange 0 end\n\t}\n    }\n    if {$cur"..., 4096) = 2533
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+stat("/usr/lib64/tk8.6/text.tcl", {st_mode=S_IFREG|0644, st_size=31575, ...}) = 0
+open("/usr/lib64/tk8.6/text.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# text.tcl --\n#\n# This file defi"..., 4096) = 4096
+read(7, ":TextNextPara %W insert]\n}\nbind "..., 4096) = 4096
+read(7, "if {!$tk_strictMotif} {\n\ttk::Tex"..., 4096) = 4096
+read(7, "\n    variable ::tk::Priv\n\n    se"..., 4096) = 4096
+read(7, "anchor [$w index $anchorname]\n  "..., 4096) = 4096
+read(7, "proc ::tk::TextResetAnchor {w in"..., 4096) = 4096
+read(7, "return $pos\n\t    }\n\t}\n\tset pos ["..., 4096) = 4096
+read(7, " a given position in the\n# text."..., 4096) = 2903
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/ttk.tcl", {st_mode=S_IFREG|0644, st_size=4546, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/ttk.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Ttk widget set initializatio"..., 4096) = 4096
+read(7, "e {} {\n    set preferred [list a"..., 4096) = 450
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/fonts.tcl", {st_mode=S_IFREG|0644, st_size=5571, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/fonts.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Font specifications.\n#\n# Thi"..., 4096) = 4096
+read(7, "igure TkHeadingFont -family $F(f"..., 4096) = 1475
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+brk(0x15d8000)                          = 0x15d8000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tcl8.6", {st_mode=S_IFDIR|0755, st_size=262, ...}) = 0
+lstat("/usr/lib64/tcl8.6/encoding", {st_mode=S_IFDIR|0755, st_size=1740, ...}) = 0
+open("/usr/lib64/tcl8.6/encoding/ascii.enc", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4ad0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# Encoding file: ascii, single-b"..., 4096) = 1090
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/cursors.tcl", {st_mode=S_IFREG|0644, st_size=4007, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/cursors.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Map symbolic cursor names to"..., 4096) = 4007
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/utils.tcl", {st_mode=S_IFREG|0644, st_size=8562, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/utils.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Utilities for widget impleme"..., 4096) = 4096
+read(7, "abnormal condition; ignore any e"..., 4096) = 4096
+read(7, "nd TtkScrollable <MouseWheel> \\\n"..., 4096) = 370
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/button.tcl", {st_mode=S_IFREG|0644, st_size=2978, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/button.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Bindings for Buttons, Checkb"..., 4096) = 2978
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/menubutton.tcl", {st_mode=S_IFREG|0644, st_size=4886, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/menubutton.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Bindings for Menubuttons.\n#\n"..., 4096) = 4096
+read(7, "de (menubutton has an implicit g"..., 4096) = 790
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/scrollbar.tcl", {st_mode=S_IFREG|0644, st_size=3097, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/scrollbar.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Bindings for TScrollbar widg"..., 4096) = 3097
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/scale.tcl", {st_mode=S_IFREG|0644, st_size=2698, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/scale.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "# scale.tcl - Copyright (C) 2004"..., 4096) = 2698
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/progress.tcl", {st_mode=S_IFREG|0644, st_size=1089, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/progress.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Ttk widget set: progress bar"..., 4096) = 1089
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/notebook.tcl", {st_mode=S_IFREG|0644, st_size=5619, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/notebook.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Bindings for TNotebook widge"..., 4096) = 4096
+read(7, "t index [lsearch -exact $TLNoteb"..., 4096) = 1523
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/panedwindow.tcl", {st_mode=S_IFREG|0644, st_size=1920, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/panedwindow.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Bindings for ttk::panedwindo"..., 4096) = 1920
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/entry.tcl", {st_mode=S_IFREG|0644, st_size=15889, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/entry.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# DERIVED FROM: tk/library/ent"..., 4096) = 4096
+read(7, "\nbind TEntry <Key-BackSpace> \t\t{"..., 4096) = 4096
+read(7, "t the insert cursor is visible.\n"..., 4096) = 4096
+read(7, "rsor $to\n}\n\n## WordSelect -- Sel"..., 4096) = 3601
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+brk(0x15fc000)                          = 0x15fc000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/combobox.tcl", {st_mode=S_IFREG|0644, st_size=12394, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/combobox.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Combobox bindings.\n#\n# <<NOT"..., 4096) = 4096
+read(7, "(entryPress)} {\n\tswitch -- $mode"..., 4096) = 4096
+read(7, "opdown.sb -row 0 -column 1 -padx"..., 4096) = 4096
+read(7, "ly.\n#\nproc ttk::combobox::LBClea"..., 4096) = 106
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/spinbox.tcl", {st_mode=S_IFREG|0644, st_size=4255, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/spinbox.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# ttk::spinbox bindings\n#\n\nnam"..., 4096) = 4096
+read(7, "t 0.25\n\t    set nsd [expr {int(c"..., 4096) = 159
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/treeview.tcl", {st_mode=S_IFREG|0644, st_size=8859, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/treeview.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# ttk::treeview widget binding"..., 4096) = 4096
+read(7, "e -\n\tcell {\n\t    set item [$w id"..., 4096) = 4096
+read(7, "eview::CloseItem {w item} {\n    "..., 4096) = 667
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/sizegrip.tcl", {st_mode=S_IFREG|0644, st_size=2392, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/sizegrip.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Sizegrip widget bindings.\n#\n"..., 4096) = 2392
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/defaults.tcl", {st_mode=S_IFREG|0644, st_size=3684, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/defaults.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Settings for default theme.\n"..., 4096) = 3684
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+brk(0x161e000)                          = 0x161e000
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/classicTheme.tcl", {st_mode=S_IFREG|0644, st_size=3520, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/classicTheme.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# \"classic\" Tk theme.\n#\n# Impl"..., 4096) = 3520
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/altTheme.tcl", {st_mode=S_IFREG|0644, st_size=3342, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/altTheme.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# Ttk widget set: Alternate th"..., 4096) = 3342
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=314, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=157850, ...}) = 0
+lstat("/usr/lib64/tk8.6", {st_mode=S_IFDIR|0755, st_size=766, ...}) = 0
+lstat("/usr/lib64/tk8.6/ttk", {st_mode=S_IFDIR|0755, st_size=560, ...}) = 0
+stat("/usr/lib64/tk8.6/ttk/clamTheme.tcl", {st_mode=S_IFREG|0644, st_size=4261, ...}) = 0
+open("/usr/lib64/tk8.6/ttk/clamTheme.tcl", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff13bd4dd0) = -1 ENOTTY (Inappropriate ioctl for device)
+read(7, "#\n# \"Clam\" theme.\n#\n# Inspired b"..., 4096) = 4096
+read(7, "    -borderwidth 2 -relief raise"..., 4096) = 165
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+access("/home/danny/.camltkrc", R_OK)   = -1 ENOENT (No such file or directory)
+access("/etc/fonts/fonts.conf", R_OK)   = 0
+stat("/etc/fonts/fonts.conf", {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+open("/etc/fonts/fonts.conf", O_RDONLY|O_CLOEXEC) = 7
+read(7, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 6162
+access("/etc/fonts/conf.d", R_OK)       = 0
+stat("/etc/fonts/conf.d", {st_mode=S_IFDIR|0755, st_size=1388, ...}) = 0
+openat(AT_FDCWD, "/etc/fonts/conf.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 8
+getdents(8, /* 35 entries */, 32768)    = 1520
+getdents(8, /* 0 entries */, 32768)     = 0
+access("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", {st_mode=S_IFREG|0644, st_size=1952, ...}) = 0
+open("/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1952
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=866, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 866
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", {st_mode=S_IFREG|0644, st_size=856, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-sans.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 856
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", {st_mode=S_IFREG|0644, st_size=858, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-dejavu-serif.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 858
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/20-unhint-small-vera.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/20-unhint-small-vera.conf", {st_mode=S_IFREG|0644, st_size=1259, ...}) = 0
+open("/etc/fonts/conf.d/20-unhint-small-vera.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1259
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/30-metric-aliases.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/30-metric-aliases.conf", {st_mode=S_IFREG|0644, st_size=5354, ...}) = 0
+open("/etc/fonts/conf.d/30-metric-aliases.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5354
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/30-urw-aliases.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/30-urw-aliases.conf", {st_mode=S_IFREG|0644, st_size=1198, ...}) = 0
+open("/etc/fonts/conf.d/30-urw-aliases.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1198
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/40-nonlatin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/40-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=5182, ...}) = 0
+open("/etc/fonts/conf.d/40-nonlatin.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5182
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/42-luxi-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/42-luxi-mono.conf", {st_mode=S_IFREG|0644, st_size=389, ...}) = 0
+open("/etc/fonts/conf.d/42-luxi-mono.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 389
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/44-wqy-zenhei.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/44-wqy-zenhei.conf", {st_mode=S_IFREG|0644, st_size=2038, ...}) = 0
+open("/etc/fonts/conf.d/44-wqy-zenhei.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 2038
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/45-latin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/45-latin.conf", {st_mode=S_IFREG|0644, st_size=3948, ...}) = 0
+open("/etc/fonts/conf.d/45-latin.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 3948
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/49-sansserif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/49-sansserif.conf", {st_mode=S_IFREG|0644, st_size=545, ...}) = 0
+open("/etc/fonts/conf.d/49-sansserif.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 545
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/50-user.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/50-user.conf", {st_mode=S_IFREG|0644, st_size=673, ...}) = 0
+open("/etc/fonts/conf.d/50-user.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 673
+access("/home/danny/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/danny/.config/fontconfig/conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/danny/.config/fontconfig/fonts.conf", R_OK) = 0
+stat("/home/danny/.config/fontconfig/fonts.conf", {st_mode=S_IFREG|0644, st_size=508, ...}) = 0
+open("/home/danny/.config/fontconfig/fonts.conf", O_RDONLY|O_CLOEXEC) = 10
+read(10, "<?xml version=\"1.0\"?><!DOCTYPE f"..., 8192) = 508
+read(10, "", 8192)                      = 0
+close(10)                               = 0
+access("/home/danny/.config/fontconfig/fonts.conf", R_OK) = 0
+access("/home/danny/.fonts.conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/danny/.fonts.conf.d", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/danny/.fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/danny/.fonts.conf", R_OK) = -1 ENOENT (No such file or directory)
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/51-local.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/51-local.conf", {st_mode=S_IFREG|0644, st_size=189, ...}) = 0
+open("/etc/fonts/conf.d/51-local.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 189
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+access("/etc/fonts/local.conf", R_OK)   = -1 ENOENT (No such file or directory)
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", {st_mode=S_IFREG|0644, st_size=1509, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-sans-mono.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1509
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/57-dejavu-sans.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-sans.conf", {st_mode=S_IFREG|0644, st_size=2011, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-sans.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 2011
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/57-dejavu-serif.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/57-dejavu-serif.conf", {st_mode=S_IFREG|0644, st_size=1649, ...}) = 0
+open("/etc/fonts/conf.d/57-dejavu-serif.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\" encoding=\"UT"..., 8192) = 1649
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/60-latin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/60-latin.conf", {st_mode=S_IFREG|0644, st_size=1701, ...}) = 0
+open("/etc/fonts/conf.d/60-latin.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1701
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/65-fonts-persian.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-fonts-persian.conf", {st_mode=S_IFREG|0644, st_size=10118, ...}) = 0
+open("/etc/fonts/conf.d/65-fonts-persian.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 8192
+read(9, "<family>Koodak</family>\n\t\t\t<fami"..., 8192) = 1926
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/65-nonlatin.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/65-nonlatin.conf", {st_mode=S_IFREG|0644, st_size=7959, ...}) = 0
+open("/etc/fonts/conf.d/65-nonlatin.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 7959
+brk(0x163f000)                          = 0x163f000
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/69-unifont.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/69-unifont.conf", {st_mode=S_IFREG|0644, st_size=672, ...}) = 0
+open("/etc/fonts/conf.d/69-unifont.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 672
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/80-delicious.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/80-delicious.conf", {st_mode=S_IFREG|0644, st_size=422, ...}) = 0
+open("/etc/fonts/conf.d/80-delicious.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 422
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-synthetic.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-synthetic.conf", {st_mode=S_IFREG|0644, st_size=1691, ...}) = 0
+open("/etc/fonts/conf.d/90-synthetic.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1691
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", {st_mode=S_IFREG|0644, st_size=1055, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-bengali-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1055
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", {st_mode=S_IFREG|0644, st_size=5035, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 5035
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", {st_mode=S_IFREG|0644, st_size=687, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-gujarati-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 687
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", {st_mode=S_IFREG|0644, st_size=685, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-kannada-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 685
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", {st_mode=S_IFREG|0644, st_size=1072, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-malayalam-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 1072
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", {st_mode=S_IFREG|0644, st_size=672, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-oriya-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 672
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", {st_mode=S_IFREG|0644, st_size=683, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-punjabi-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 683
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", {st_mode=S_IFREG|0644, st_size=657, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-tamil-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 657
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+access("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", R_OK) = 0
+stat("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", {st_mode=S_IFREG|0644, st_size=678, ...}) = 0
+open("/etc/fonts/conf.d/90-ttf-telugu-fonts.conf", O_RDONLY|O_CLOEXEC) = 9
+read(9, "<?xml version=\"1.0\"?>\n<!DOCTYPE "..., 8192) = 678
+read(9, "", 8192)                       = 0
+close(9)                                = 0
+close(8)                                = 0
+access("/etc/fonts/conf.d", R_OK)       = 0
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/usr/share/fonts/OTF", {st_mode=S_IFDIR|0755, st_size=908, ...}) = 0
+open("/usr/share/fonts/OTF", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//f349e9996a5320f6dd491cedd2b1f964-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=34008, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 34008, PROT_READ, MAP_SHARED, 7, 0) = 0x7f43251d6000
+fadvise64(7, 0, 34008, POSIX_FADV_WILLNEED) = 0
+close(7)                                = 0
+stat("/usr/share/fonts/TTF", {st_mode=S_IFDIR|0755, st_size=6776, ...}) = 0
+open("/usr/share/fonts/TTF", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//f6b893a7224233d96cb72fd88691c0b4-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=450304, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 450304, PROT_READ, MAP_SHARED, 7, 0) = 0x7f4325168000
+fadvise64(7, 0, 450304, POSIX_FADV_WILLNEED) = 0
+close(7)                                = 0
+stat("/usr/share/fonts/Type1", {st_mode=S_IFDIR|0755, st_size=3468, ...}) = 0
+open("/usr/share/fonts/Type1", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//d62e99ef547d1d24cdb1bd22ec1a2976-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=72912, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 72912, PROT_READ, MAP_SHARED, 7, 0) = 0x7f43204ad000
+fadvise64(7, 0, 72912, POSIX_FADV_WILLNEED) = 0
+close(7)                                = 0
+stat("/usr/share/fonts/Speedo", {st_mode=S_IFDIR|0755, st_size=232, ...}) = 0
+open("/usr/share/fonts/Speedo", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//30786aca7a961ef9f9799e540455831d-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=96, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+read(7, "\4\374\2\374\4\0\0\0`\0\0\0\0\0\0\0008\0\0\0\0\0\0\0P\0\0\0\0\0\0\0"..., 96) = 96
+close(7)                                = 0
+stat("/usr/share/fonts/cyrillic", {st_mode=S_IFDIR|0755, st_size=2394, ...}) = 0
+open("/usr/share/fonts/cyrillic", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//2d31a572ce6667f6a0da9c8dc611898b-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=104, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+read(7, "\4\374\2\374\4\0\0\0h\0\0\0\0\0\0\0008\0\0\0\0\0\0\0X\0\0\0\0\0\0\0"..., 104) = 104
+close(7)                                = 0
+stat("/usr/share/fonts/misc", {st_mode=S_IFDIR|0755, st_size=24126, ...}) = 0
+open("/usr/share/fonts/misc", O_RDONLY|O_CLOEXEC) = 7
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+close(7)                                = 0
+open("/var/cache/fontconfig//8d4af663993b81a124ee82e610bb31f9-le64.cache-4", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=159984, ...}) = 0
+fstatfs(7, {f_type=0x9123683e, f_bsize=4096, f_blocks=103284736, f_bfree=18832352, f_bavail=16939758, f_files=0, f_ffree=0, f_fsid={940506186, -1002613587}, f_namelen=255, f_frsize=4096}) = 0
+mmap(NULL, 159984, PROT_READ, MAP_SHARED, 7, 0) = 0x7f4320485000
+fadvise64(7, 0, 159984, POSIX_FADV_WILLNEED) = 0
+close(7)                                = 0
+stat("/home/danny/.local/share/fonts", 0x7fff13bd4f10) = -1 ENOENT (No such file or directory)
+stat("/home/danny/.local/share/fonts", 0x7fff13bd4f50) = -1 ENOENT (No such file or directory)
+stat("/home/danny/.fonts", 0x7fff13bd4f10) = -1 ENOENT (No such file or directory)
+stat("/home/danny/.fonts", 0x7fff13bd4f50) = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/usr/bin/ocamlrun", 4096) = 17
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"b\0\4\0\6\0\200\3", 8}, {"RENDER", 6}, {"\0\0", 2}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\25\0\0\0\0\0\1\212\0\214\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\212\0\3\0\0\0\0\0\v\0\0\0\212\1\1\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\26\0\0\0\0\0\0\0\0\0\v\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 1076
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+uname({sys="Linux", node="Hetalia", ...}) = 0
+open("/home/danny/.Xdefaults-Hetalia", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4325167000
+read(7, "MemTotal:        7975956 kB\nMemF"..., 1024) = 1014
+close(7)                                = 0
+munmap(0x7f4325167000, 4096)            = 0
+open("/usr/share/fonts/TTF/DejaVuSans.ttf", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=741536, ...}) = 0
+mmap(NULL, 741536, PROT_READ, MAP_PRIVATE, 7, 0) = 0x7f432020a000
+close(7)                                = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"-\0\5\0\3\0\200\3\5\0\0\0fixed\331\331\0\212\21\3\0\4\0\200\3$\0\0\0"..., 3316}, {NULL, 0}, {"", 0}], 3) = 3316
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0?\0\0\0\0\0\354\354\354\354\354\354\0\0\354\354\354\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\0\5\0\6\0\200\3\243\0\0\0\4\0\0\0\354\354\354\0T\21\4\0 \0\0\0\243\243\243\243"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0A\0\0\0\0\0\243\243\243\243\243\243\0\0\243\243\243\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+brk(0x1662000)                          = 0x1662000
+uname({sys="Linux", node="Hetalia", ...}) = 0
+getuid()                                = 1000
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 7
+lseek(7, 0, SEEK_CUR)                   = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1462, ...}) = 0
+mmap(NULL, 1462, PROT_READ, MAP_SHARED, 7, 0) = 0x7f4325167000
+lseek(7, 1462, SEEK_SET)                = 1462
+munmap(0x7f4325167000, 1462)            = 0
+close(7)                                = 0
+open("/usr/lib64/libXcursor.so.1", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260*\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0755, st_size=40096, ...}) = 0
+mmap(NULL, 2135472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f4320000000
+mprotect(0x7f4320009000, 2097152, PROT_NONE) = 0
+mmap(0x7f4320209000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x9000) = 0x7f4320209000
+close(7)                                = 0
+open("/usr/lib64/libXfixes.so.3", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\25\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0755, st_size=20456, ...}) = 0
+mmap(NULL, 2115912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f431fdfb000
+mprotect(0x7f431fe00000, 2093056, PROT_NONE) = 0
+mmap(0x7f431ffff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x4000) = 0x7f431ffff000
+close(7)                                = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\0\7\0\7\0\200\3\243\0\0\0\10@\1\0\331\331\331\0\3\0\200\3\0\0\0\0007\243\6\0"..., 488}, {NULL, 0}, {"", 0}], 3) = 488
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 1, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\1\0\200\3\16\0\2\0\1\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0M\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\1 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\1\0\200\3\16\0\2\0\1\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0O\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\1 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 3, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\1\30\16\0\16\0\200\3\243\0\0\0\0\0\0\0\1\0\1\0\0\0\1\0!\0\0\0\32h\0\0"..., 200}, {NULL, 0}, {"", 0}], 3) = 200
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0T\0\17\0\200\3C\0\0\0\311\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\n\0\17\0\200\3'\0\0\0\37\0\0\0\10\0\1\0\17\0\0\0OCamlBro"..., 60}, {NULL, 0}, {"", 0}], 3) = 60
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0V\0\17\0\200\3'\0\0\0\312\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\n\0\17\0\200\3J\1\0\0L\1\0\0\10\0\1\0\17\0\0\0OCamlBro"..., 124}, {NULL, 0}, {"", 0}], 3) = 124
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0X\0\17\0\200\3J\1\0\0\312\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 96
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\5\0\f\0\200\3_NET_WM_PING", 20}, {NULL, 0}, {"", 0}], 3) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0[\0\0\0\0\0p\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\5\0\f\0\200\3WM_PROTOCOLS", 20}, {NULL, 0}, {"", 0}], 3) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\\\0\0\0\0\0E\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\7\0\17\0\200\3E\1\0\0\4\0\0\0 OLS\1\0\0\0F\1\0\0\22\0\30\0"..., 168}, {NULL, 0}, {"", 0}], 3) = 168
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0]\0\17\0\200\3E\1\0\0\313\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 96
+recvfrom(6, "\26\0`\0\17\0\200\3\17\0\200\3\1\0\200\3\0\0\0\0\242\1\332\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\6\0\17\0\200\3q\1\0\0\4\0\0\0 OLS\0\0\0\0\10\1\2\0\17\0\200\3", 32}, {NULL, 0}, {"", 0}], 3) = 32
+recvfrom(6, "\34\0a\0\17\0\200\3q\1\0\0\313\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+select(7, [6], NULL, NULL, {0, 0})      = 0 (Timeout)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\17\0\200\3\16\1\2\0\17\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0c\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\17\0\200\3\16\1\2\0\17\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0e\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\f\0\7\0\16\0\200\3\17\0\2\0\0\0\0\0\0\0\0\0\242\1\0\0\332\0\0\0\3\0\2\0"..., 44}, {NULL, 0}, {"", 0}], 3) = 44
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0h\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\16\0\200\3\16\0\2\0\16\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0j\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, "\34\0k\0\17\0\200\3q\1\0\0\314\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\f\0\7\0\16\0\200\3\17\0\2\0\0\0\0\0\0\0\0\0\242\1\0\0\332\0\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+select(7, [6], NULL, NULL, {0, 0})      = 0 (Timeout)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+select(7, [6], NULL, NULL, {1, 998341}) = 1 (in [6], left {1, 996130})
+recvfrom(6, "\25\0k\0\17\0\200\3\17\0\200\3\203\224\4\1\2\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\5\0\t\0\200\3__WM_ROOT\0\0\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\226\0k\0\17\0\200\3\17\0\200\3\203\224\4\1\2\0\23\0\242\1\332\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 192
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\5\0\n\0\200\3__SWM_ROOT\0\0", 20}, {NULL, 0}, {"", 0}], 3) = 20
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0n\0\0\0\0\0\321\2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\24\0\6\0\17\0\200\3\320\2\0\0!\0\0\0\0\0\0\0\1\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0n\0\17\0\200\3C\1\0\0\321\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 96
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\24\0\6\0\17\0\200\3\321\2\0\0!\0\0\0\0\0\0\0\1\0\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0p\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\17\0\2\0\203\224\4\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0p\0\17\0\200\3c\1\0\0\322\261%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0q\0\r\0\0\0\243\0\0\0\243\0\0\0\r\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 84
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"(\0\4\0\17\0\200\3\203\224\4\1\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\1r\0\0\0\0\0\17\0\200\3\2\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\16\0\2\0\203\224\4\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\30s\0\0\0\0\0\243\0\0\0\0\0\0\0\246\1\357\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"(\0\4\0\17\0\200\3\203\224\4\1\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\1t\0\0\0\0\0\17\0\200\3\2\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\16\0\2\0\203\224\4\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\30u\0\0\0\0\0\243\0\0\0\0\0\0\0\246\1\357\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\f\0\7\0\16\0\200\3\17\0\4\1\0\0\0\0\0\0\0\0\242\1\0\0\332\0\0\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+select(7, [6], NULL, NULL, {0, 0})      = 0 (Timeout)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"(\0\4\0\17\0\200\3\203\224\4\1\0\0\0\0", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\1w\0\0\0\0\0\17\0\200\3\2\0\23\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\16\0\2\0\203\224\4\1", 8}, {NULL, 0}, {"", 0}], 3) = 8
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\30x\0\0\0\0\0\243\0\0\0\0\0\0\0\246\1\357\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\f\0\7\0\16\0\200\3\17\0\4\1\0\0\0\0\0\0\0\0\242\1\0\0\332\0\0\0\10\0\2\0"..., 60}, {NULL, 0}, {"", 0}], 3) = 60
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\17\0z\0\16\0\200\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 160
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\7\0\23\0\200\3_NET_WM_STATE_ABOVE\0", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0|\0\0\0\0\0r\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\t\0\34\0\200\3_NET_WM_STATE_MAXIMIZED_"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0}\0\0\0\0\0x\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\t\0\34\0\200\3_NET_WM_STATE_MAXIMIZED_"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0~\0\0\0\0\0w\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\20\0\10\0\30\0\200\3_NET_WM_STATE_FULLSCREEN", 32}, {NULL, 0}, {"", 0}], 3) = 32
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\177\0\0\0\0\0u\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\24\0\6\0\17\0\200\3q\1\0\0\4\0\0\0\0\0\0\0\0\4\0\0", 24}, {NULL, 0}, {"", 0}], 3) = 24
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1 \200\0\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 5, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 7, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"F\0\5\0\16\0\200\3\2\0\200\3\0\0\0\0\242\1\332\0\1\30\r\0\20\0\200\3\16\0\200\3"..., 88}, {NULL, 0}, {"", 0}], 3) = 88
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\203\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\20\0\200\3\16\0\2\0\20\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\205\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\10\0\2\0\20\0\200\3\1\30\r\0\21\0\200\3\16\0\200\3\272\0\276\0-\0\34\0\0\0\1\0"..., 76}, {NULL, 0}, {"", 0}], 3) = 76
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\17\0\207\0\20\0\200\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 204
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\3\0\2\0\21\0\200\3\16\30\2\0\21\0\200\3", 16}, {NULL, 0}, {"", 0}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\213\0\3\0\0\0!\0\0\0\1\0\1\1\377\377\377\377\0\0\0\0\0\1\0\0 \0\0\0"..., 4096, 0, NULL, NULL) = 76
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\10\0\2\0\21\0\200\3", 8}, {NULL, 0}, {"", 0}], 3) = 8
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 9, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\17\0\215\0\21\0\200\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\0\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_PRIVATE, 11, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"F\0\5\0\20\0\200\3\2\0\200\3\0\0\0\0\242\1\276\0[\0\3\0 \0\0\0\0\0\0\0", 32}, {NULL, 0}, {"", 0}], 3) = 32
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\220\0\2\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 40
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\212\4\5\0\22\0\200\3\20\0\200\3*\0\0\0\0\0\0\0005 \4\0\23\0\200\3\243\0\0\0"..., 1336}, {NULL, 0}, {"", 0}], 3) = 1336
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\272\0\0\0\0\0\202\202\202\202\202\202\0\0\202\202\202\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\4\5\0!\0\200\3\21\0\200\3\4\0\0\0\202\202\202\0T \4\0 \0\0\0\377\377\377\377"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\274\0\0\0\0\0\377\377\377\377\377\377\0\0\377\377\377\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"7\4\5\0\"\0\200\3\21\0\200\3\4\0\0\0\377\377\377\0F \5\0\37\0\200\3\"\0\200\3"..., 200}, {NULL, 0}, {"", 0}], 3) = 200
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 13, {1419829566, 822357000}, ffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\16\0\304\0\21\0\200\3\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\4\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 15, {1419829566, 822354000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 17, {1419829567, 123059000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 19, {1419829567, 423716000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 21, {1419829567, 724365000}, ffffffff) = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\2\205\306\0\231\264%\4\243\0\0\0\20\0\200\3\0\0\0\0x\0\231\0v\0\206\0\0\0\1\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\207\10\7\0\0\1\7\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\3", 28}, {NULL, 0}, {"", 0}], 3) = 28
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\3\307\0\360\4\0\0\0\0\10\377\7\0\0\31\31\10\313\1\370\0\0\0\0\0\0\0\0\0\0\10"..., 4096, 0, NULL, NULL) = 4096
+recvfrom(6, "\0\0\0\0\1\1\1\0\27\377\10\20\1\0\0\0\1\2\2\0\24\377\10\0201\377\10\20\0\0\0\0"..., 992, 0, NULL, NULL) = 992
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\207\1\5\0\3\0\1\0\0\0\0\0\0\0\0\0\5\0\5\0\207\1\4\0\3\0\2\0\0\0\0\0"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\1\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"w\1\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\4\313\0\10\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 64
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 23, {1419829567, 724305000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 25, {1419829568, 24808000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 27, {1419829568, 325288000}, ffffffff) = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\3\205\313\0\365\266%\4\243\0\0\0\20\0\200\3\0\0\0\0x\0\231\0v\0\206\0@\0\1\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\1\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 29, {1419829568, 325294000}, ffffffff) = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\2\205\314\0\264\267%\4\243\0\0\0\20\0\200\3\0\0\0\0x\0\231\0v\0\206\0\0\0\1\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\1\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 31, {1419829568, 325283000}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+write(5, "\0", 1)                       = 1
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+write(5, "\0", 1)                       = 1
+futex(0x15174f4, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 33, {1419829568, 625880000}, ffffffff) = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+recvfrom(6, "\241 \315\0\17\0\200\3E\1\0\0F\1\0\0000\270%\4\2\0\0\0 \0\0\0007\210\276]", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\177\1\1\0", 4}, {NULL, 0}, {"", 0}], 3) = 4
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f432442fe50}, 8) = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"<\1\2\0\5\0\200\3<\0\2\0\7\0\200\3<\0\2\0\10\0\200\3<\0\2\0\f\0\200\3"..., 244}, {NULL, 0}, {"", 0}], 3) = 244
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\f\0\341\0\17\0\200\3\0\0\0\0\242\1\332\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 656
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\f\0\243\0\0\0\315\2\0\0\37\0\0\0\10\0\2\0\25\0\0\0001400001 "..., 52}, {NULL, 0}, {"", 0}], 3) = 52
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+munmap(0x7f43203c1000, 475136)          = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\22\0\6\0\1\0\200\3\316\2\0\0\37\0\0\0\10\0\2\0\0\0\0\0\0044\2\0\1\0\200\3"..., 36}, {NULL, 0}, {"", 0}], 3) = 36
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\34\0\351\0\1\0\200\3\316\2\0\0003\270%\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 0, NULL, NULL) = 96
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"<\0\2\0\0\0\200\3+\2\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\355\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+munmap(0x7f432020a000, 741536)          = 0
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"b\0\4\0\6\0\200\3", 8}, {"RENDER", 6}, {"\0\0", 2}], 3) = 16
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\356\0\0\0\0\0\1\212\0\214\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=6, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=6, revents=POLLOUT}])
+writev(6, [{"\212\23\2\0\4\0\200\3+\2\1\0", 12}, {NULL, 0}, {"", 0}], 3) = 12
+poll([{fd=6, events=POLLIN}], 1, 4294967295) = 1 ([{fd=6, revents=POLLIN}])
+recvfrom(6, "\1\0\360\0\0\0\0\0\1\0\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 4096, 0, NULL, NULL) = 32
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+recvfrom(6, 0x1416e14, 4096, 0, 0, 0)   = -1 EAGAIN (Resource temporarily unavailable)
+shutdown(6, SHUT_RDWR)                  = 0
+close(6)                                = 0
+write(5, "q", 1)                        = 1
+close(5)                                = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x139f110, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x139f114, FUTEX_WAIT_PRIVATE, 3, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+futex(0x7f43214fc9d0, FUTEX_WAIT, 12427, NULL) = 0
+futex(0x1394ab0, FUTEX_WAKE_PRIVATE, 1) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

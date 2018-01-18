@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="gamelib">
+	<target name="build" description="Build project into classes">
+		<javac srcdir="src" destdir="bin" classpath="src:libs" />
+	</target>
+</project>

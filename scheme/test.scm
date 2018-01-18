@@ -1,0 +1,13 @@
+(use ncurses srfi-25)
+(initscr)
+(define w 0)
+(define h 0)
+(let-values (((height width) (getmaxyx stdscr)))
+  (set! h height)
+  (set! w width))
+(endwin)
+
+(display w)
+(newline)
+(display h)
+(newline)

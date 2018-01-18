@@ -1,0 +1,25 @@
+     1                                  section .text
+     2                                  	global _start
+     3                                  	global _main
+     4                                  main:	
+     5                                  _start:	
+     6                                  itoa:	
+     7 00000000 B8D2040000              	mov eax, 1234
+     8 00000005 BB00000000              	mov ebx, 0
+     9 0000000A B90A000000              	mov ecx, $0A
+    10 0000000F F7F1                    	div ecx
+    11 00000011 83C230                  	add edx, $30
+    12 00000014 8993[00000000]          	mov [scratch+ebx], edx
+    13 0000001A 83C301                  	add ebx, 1
+    14 0000001D C683[00000000]00        	mov [scratch+ebx], byte 0
+    15 00000024 B804000000              	mov eax, 4
+    16 00000029 BB01000000              	mov ebx, 1
+    17 0000002E B9[00000000]            	mov ecx, scratch
+    18 00000033 BA02000000              	mov edx, 2
+    19 00000038 CD80                    	int 0x80
+    20                                  
+    21 0000003A B801000000              	mov eax, 1
+    22 0000003F BB00000000              	mov ebx, 0
+    23 00000044 CD80                    	int 0x80
+    24                                  section .bss
+    25 00000000 <res 00000005>          	scratch resb 5

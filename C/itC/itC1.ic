@@ -1,0 +1,7 @@
+open io
+
+fun main(argc: int, argv: string[]) -> int {
+    print("this string stuff is weird")
+
+    ret 0
+}
